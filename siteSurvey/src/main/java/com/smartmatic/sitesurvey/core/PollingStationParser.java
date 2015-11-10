@@ -56,13 +56,13 @@ public class PollingStationParser {
 	    }
 	    return false;
 	}
-    
+    //GET POLLINGSTATIONS
 	public static ArrayList<PollingStation> parse(BufferedReader reader) throws IOException {
         try {
         	ArrayList<PollingStation> list = new ArrayList<PollingStation>();
-        	
+
         	reader.readLine(); // AVOID HEADER
-    
+
         	String line = reader.readLine();
 			while( line !=null){
 				PollingStation ps = new PollingStation();

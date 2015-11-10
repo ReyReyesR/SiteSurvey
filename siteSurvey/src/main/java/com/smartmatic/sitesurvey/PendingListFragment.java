@@ -35,7 +35,8 @@ public class PendingListFragment extends ListFragment{
 	private static Boolean manualLocation = false; // debe ser el check de preferences.xml
 	private static double lon = 10.488558; // latitud de archivo de config
 	private static double lat = -66.93399; // longiud de archivo de config
-	private static SimpleDateFormat  format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS", Locale.US);
+	private static 	SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.US);
+	//SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS", Locale.US);
 	public static String startDate;
 	
 	// Colombia lat = 4.647758; lon = -74.101735; 

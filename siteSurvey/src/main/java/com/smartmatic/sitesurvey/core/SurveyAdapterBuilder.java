@@ -14,7 +14,8 @@ public class SurveyAdapterBuilder {
 
 	private static Survey baseSurvey;
 	public static Hashtable<Integer,Survey> surveys = new  Hashtable<Integer,Survey>();
-	private static SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS", Locale.US);
+	private static 	SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.US);
+	//SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS", Locale.US);
 	
 	public static void setSurvey(Survey _survey){
 		baseSurvey = _survey;

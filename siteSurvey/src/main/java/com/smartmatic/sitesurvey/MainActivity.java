@@ -48,6 +48,7 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
      */
     ViewPager mViewPager;
     JSONHandler JSONHandle;
+    String JSONString;
 
 
     @Override
@@ -89,13 +90,8 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
                     .setTabListener(this));
         }
 
-        //Survey survey = new Survey(SurveyParser.GetQuestionary(getBaseContext()), SurveyParser.dependencies, SurveyParser.fullSize, SurveyParser.withKeyboardSize);
-        //SurveyAdapterBuilder.setSurvey(survey);
-
-        //PendingListFragment.setData(PollingStationParser.GetPollingStations(getApplicationContext()));
-
         new TransmiterTask().execute(getApplicationContext());
-        GetJSON JSONFile = new GetJSON();
+        getJSON JSONFile = new getJSON();
         if (Build.VERSION.SDK_INT>= Build.VERSION_CODES.HONEYCOMB)
             JSONFile.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
         else
@@ -106,7 +102,7 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
      * Created by Reynaldo on 10/11/2015.
      */
 
-    private class GetJSON extends AsyncTask<Void, Void, Void> {
+    private class getJSON extends AsyncTask<Void, Void, Void> {
 
         protected void onPreExecute(){
             pDialog = new ProgressDialog(MainActivity.this);
@@ -129,14 +125,11 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
             // Getting JSON string from URL
             ServiceHandler sh = new ServiceHandler();
             // Making a request to url and getting response*/
-            String JSONString = sh.makeServiceCall(url, ServiceHandler.GET);
+            JSONString = sh.makeServiceCall(url, ServiceHandler.GET);
             Log.d("Response: ", "> " + JSONString);
-
-            if (JSONHandle.PopulateStruct(JSONString)){
-
-            }else{
-
-            }
+            //Survey survey = new Survey(SurveyParser.GetQuestionary(getBaseContext()), SurveyParser.dependencies, SurveyParser.fullSize, SurveyParser.withKeyboardSize);
+            //SurveyAdapterBuilder.setSurvey(survey);
+            //PendingListFragment.setData(PollingStationParser.GetPollingStations(getApplicationContext()));
 
             return null;
         }
@@ -147,6 +140,13 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
             // Dismiss the progress dialog
             if (pDialog.isShowing())
                 pDialog.dismiss();
+
+            if (JSONHandle.populateStruct(JSONString)){
+
+
+            }else{
+
+            }
         }
     }
 
@@ -354,11 +354,7 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
 
         AlertDialog.Builder helpBuilder = new AlertDialog.Builder(this);
         helpBuilder.setTitle("Formas");
-        helpBuilder.setMessage("Name: " + JSONHandle.forms[0].TAG_NAME + "\nName: " +
-                JSONHandle.forms[1].TAG_NAME + "\nName: " +
-                JSONHandle.forms[2].TAG_NAME + "\nName: " +
-                JSONHandle.forms[3].TAG_NAME + "\nName: " +
-                JSONHandle.forms[4].TAG_NAME);
+        helpBuilder.setMessage("Name: ");
         helpBuilder.setPositiveButton("Ok",
                 new DialogInterface.OnClickListener() {
 
