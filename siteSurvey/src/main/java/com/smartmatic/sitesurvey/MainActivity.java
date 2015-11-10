@@ -123,11 +123,11 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
             }
 
             // Getting JSON string from URL
-            ServiceHandler sh = new ServiceHandler();
+            //ServiceHandler sh = new ServiceHandler();
             // Making a request to url and getting response*/
-            JSONString = sh.makeServiceCall(url, ServiceHandler.GET);
-            Log.d("Response: ", "> " + JSONString);
-            //Survey survey = new Survey(SurveyParser.GetQuestionary(getBaseContext()), SurveyParser.dependencies, SurveyParser.fullSize, SurveyParser.withKeyboardSize);
+            //JSONString = sh.makeServiceCall(url, ServiceHandler.GET);
+            //Log.d("Response: ", "> " + JSONString);
+            //Survey survey = new Survey(SurveyParser.getQuestionary(JSONString), SurveyParser.dependencies, SurveyParser.fullSize, SurveyParser.withKeyboardSize);
             //SurveyAdapterBuilder.setSurvey(survey);
             //PendingListFragment.setData(PollingStationParser.GetPollingStations(getApplicationContext()));
 
@@ -141,12 +141,12 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
             if (pDialog.isShowing())
                 pDialog.dismiss();
 
-            if (JSONHandle.populateStruct(JSONString)){
+            //if (JSONHandle.populateStruct(JSONString)){
 
 
-            }else{
+            //}else{
 
-            }
+            //}
         }
     }
 

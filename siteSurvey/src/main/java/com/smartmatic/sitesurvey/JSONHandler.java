@@ -15,8 +15,6 @@ import java.util.Date;
 
 public class JSONHandler {
     private static final String DATA = "Data";
-
-
     private static final String TAG_SECTIONS = "Sections";
     private static final String FORM_ID = "PKForm";
     private static final String SECTION_ID = "PKSection";

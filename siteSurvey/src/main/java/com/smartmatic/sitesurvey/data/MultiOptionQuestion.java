@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -26,13 +29,13 @@ public class MultiOptionQuestion extends Question implements Cloneable {
 	public List<Option> options;
 	public String orientation = "horizontal";
 
-	public MultiOptionQuestion(String questionName, String questionLabel, String questionAnswer, 
-			String _fontSize, String _color, List<Option> _options, String _orientation) {
-		super(questionName, questionLabel, questionAnswer, _fontSize, _color);
+	public MultiOptionQuestion(String questionName,String questionAnswer,
+			 List<Option> _options, String _orientation) {
+		super(questionName, questionAnswer, "");
 		// TODO Auto-generated constructor stub
 		options = _options;
 		space = options.size() +1;
-		
+
 		if(_orientation!= null && !_orientation.equals("")) orientation = _orientation;
 	}
 	
@@ -92,47 +95,34 @@ public class MultiOptionQuestion extends Question implements Cloneable {
 		return view;	
 	}
 	
-	public static Question CreateFromXML(XmlPullParser parser){
+	public static Question createFromJSON(JSONObject json) throws JSONException {
 		
 		List<Option> qOptions = new ArrayList<Option>();
-		String name = parser.getAttributeValue(null, "name");
-		String label = parser.getAttributeValue(null, "label");
-		String orientation = parser.getAttributeValue(null, "orientation");
-		String fontSize = parser.getAttributeValue(null, "font-size");
-		String color = parser.getAttributeValue(null, "font-color");
-						
-		try{
-			parser.nextTag();
-			parser.require(XmlPullParser.START_TAG, ns, "options");
-			while (parser.next() != XmlPullParser.END_TAG) {
-	            if (parser.getEventType() != XmlPullParser.START_TAG) {
-	                continue;
-	            }
-	            String tagName = parser.getName();
-	            // Starts by looking for the entry tag
-	            if (tagName.equals("option")) {
-	            	 String siName = parser.getAttributeValue(null, "name");
-	            	 String siLabel = parser.getAttributeValue(null, "label");
-	            	 qOptions.add(new Option(siName, siLabel));
-	            } 
-	            parser.nextTag();
-	        }
-			parser.require(XmlPullParser.END_TAG, ns, "options");
-		} catch (XmlPullParserException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		String name = json.getString("name");
+		String orientation = "horizontal";
+
+		if (json.has("Answers")){
+			JSONArray answers = json.getJSONArray("Answers");
+
+
+			for (int k = 0; k < answers.length(); k++)
+			{
+				JSONObject a = answers.getJSONObject(k);
+				String siName = a.getString("Name");
+				String siLabel = a.getString("Number");
+				qOptions.add(new Option(siName, siLabel));
+
+
+
+			}
 		}
-	        
-		return new MultiOptionQuestion(name, label, "", fontSize, color, qOptions,orientation);
+		return new MultiOptionQuestion(name,"", qOptions, orientation);
 	}
 
 	@Override
 	public Question clone() {
-		
-		return new MultiOptionQuestion(name, label, "", String.valueOf(fontSize), color, options,orientation);
+
+		return new MultiOptionQuestion(name, "", options, orientation);
 	}
 
 	@Override

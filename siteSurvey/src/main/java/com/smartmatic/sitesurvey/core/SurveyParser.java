@@ -7,6 +7,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.*;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.xmlpull.v1.*;
 
 import com.smartmatic.sitesurvey.data.*;
@@ -22,15 +25,30 @@ public class SurveyParser {
     public static int fullSize = 12;
     public static int withKeyboardSize = 5;
     public static Hashtable<String, ArrayList<Question>> dependencies;
+    private static final String DATA = "Data";
+    private static final String TAG_SECTIONS = "Sections";
+    private static final String FORM_ID = "PKForm";
+    private static final String SECTION_ID = "PKSection";
+    private static final String QUESTION_ID = "PKQestion";
+    private static final String ANSWER_ID = "PKAnswer";
+    private static final String TAG_SECTION_NAME = "Name";
+    private static final String TAG_QUESTION = "Questions";
+    private static final String TAG_QUESTION_CREATION = "DateCreation";
+    private static final String TAG_TITLE = "Title";
+    private static final String TAG_ANSWER = "Answers";
+    private static final String TAG_ANSWER_NAME = "Name";
+    private static final String TAG_ANSWER_TYPE = "Type";
+    private static final String TAG_NUMBER = "Number";
+    private static final String TAG_END = "DateEnd";
+    private static final String QUESTION_TYPE = "Type";
 
-    public static ArrayList<Question> GetQuestionary(Context context) {
+    private static AnswerArray A;
+
+    public static ArrayList<Question> getQuestionary(String JSONString) {
+
         try {
-            return parse(getConfigFile(context));
-        } catch (XmlPullParserException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
+            return parse(JSONString);
+        } catch (JSONException e) {
             e.printStackTrace();
         }
         return null;
@@ -64,76 +82,89 @@ public class SurveyParser {
         return false;
     }
 
-    public static ArrayList<Question> parse(InputStream in) throws XmlPullParserException, IOException {
+    public static ArrayList<Question> parse(String JSONString) throws JSONException {
         try {
-            XmlPullParser parser = Xml.newPullParser();
-            parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
-            parser.setInput(in, null);
-            parser.nextTag();
-            return readFile(parser);
-        } finally {
-            in.close();
+            JSONObject json = new JSONObject(JSONString);
+            //Checks for initial JSON Array
+            return readFile(json);
+        }  catch (JSONException e) {
+            e.printStackTrace();
+        } catch (XmlPullParserException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+        return null;
     }
 
-    private static ArrayList<Question> readFile(XmlPullParser parser) throws XmlPullParserException, IOException {
+    private static ArrayList<Question> readFile(JSONObject json) throws XmlPullParserException, IOException, JSONException {
+
+        JSONArray formatos, sections, quest, answers;
+        String idSection;
         dependencies = new Hashtable<String, ArrayList<Question>>();
-
-        parser.require(XmlPullParser.START_TAG, ns, "dynamic_items");
-
-        while (parser.next() != XmlPullParser.END_TAG) {
-            if (parser.getEventType() != XmlPullParser.START_TAG) {
-                continue;
-            }
-            String name = parser.getName();
-            String id = parser.getAttributeValue(null, "id");
-            // Starts by looking for the entry tag
-            if (name.equals("questions")) {
-                dependencies.put(id, readQuestions(parser));
-            }
-        }
-        parser.require(XmlPullParser.END_TAG, ns, "dynamic_items");
-        parser.nextTag();
-
         ArrayList<Question> questions = new ArrayList<Question>();
+        //Checks for initial JSON Array
+        if (json.has(DATA)) {
+            formatos = json.getJSONArray(DATA);
 
-        parser.require(XmlPullParser.START_TAG, ns, "questionary");
+            // Getting Array
+            for (int h = 0; h < formatos.length(); h++) {
+                JSONObject f = formatos.getJSONObject(h);
+                //FORM ID
+                A = new AnswerArray();
+                A.putPKForm((f.getInt(FORM_ID)));
 
-        while (parser.next() != XmlPullParser.END_TAG) {
-            if (parser.getEventType() != XmlPullParser.START_TAG) {
-                continue;
-            }
-            String name = parser.getName();
-            // Starts by looking for the entry tag
-            if (name.equals("questions")) {
-                questions = readQuestions(parser);
+                if (f.has(TAG_SECTIONS)) {
+                    Answer B = new Answer();
+                    sections = f.getJSONArray(TAG_SECTIONS);
+                    // looping through All Content
+                    for (int i = 0; i < sections.length(); i++) {
+                        JSONObject s = sections.getJSONObject(i);
+                        //B.putPKSection(s.getInt(SECTION_ID));
+                        idSection=(s.getString(SECTION_ID));
+
+                        if (s.has(TAG_QUESTION)) {
+                            dependencies.put(idSection, readQuestions(s));
+                            questions = readQuestions(s);
+                            /*quest = s.getJSONArray(TAG_QUESTION);
+
+                            // Storing each json item in variable
+                            for (int j = 0; j < quest.length(); j++) {
+
+                                JSONObject q = quest.getJSONObject(j);
+
+                                dependencies.put(idSection, readQuestions(q));
+                                questions = readQuestions(q);
+                                //B.putPKQuestion(q.getInt(QUESTION_ID));
+
+                                if (q.has(TAG_ANSWER)) {
+                                    answers = q.getJSONArray(TAG_ANSWER);
+
+
+                                    for (int k = 0; k < answers.length(); k++) {
+                                        JSONObject a = answers.getJSONObject(k);
+                                        //B.putPKAnswer(a.getInt(Answer_ID));
+                                    }
+                                }
+                            }*/
+                        }
+                    }
+                }
             }
         }
-        parser.require(XmlPullParser.END_TAG, ns, "questionary");
         return questions;
     }
 
-    private static ArrayList<Question> readQuestions(XmlPullParser parser) throws XmlPullParserException, IOException {
+    private static ArrayList<Question> readQuestions(JSONObject json) throws JSONException {
         ArrayList<Question> questions = new ArrayList<Question>();
 
-        parser.require(XmlPullParser.START_TAG, ns, "questions");
-        try{
-            fullSize = Integer.parseInt(parser.getAttributeValue(null, "full-size"));
-            withKeyboardSize= Integer.parseInt(parser.getAttributeValue(null, "with-keyboard-size"));
-        }
-        catch(Exception e){        }
+        JSONArray quest = json.getJSONArray(TAG_QUESTION);
+        for (int j = 0; j < quest.length(); j++) {
 
-        while (parser.next() != XmlPullParser.END_TAG) {
-            if (parser.getEventType() != XmlPullParser.START_TAG) {
-                continue;
-            }
-            String name = parser.getName();
-            // Starts by looking for the entry tag
-            if (name.equals("question")) {
-                questions.add(readQuestion(parser));
-            }
+            JSONObject q = quest.getJSONObject(j);
+            questions.add(readQuestion(q));
         }
-        parser.require(XmlPullParser.END_TAG, ns, "questions");
+
         return questions;
     }
 
@@ -141,61 +172,15 @@ public class SurveyParser {
     // Parses the contents of an entry. If it encounters a title, summary, or link tag, hands them
     // off
     // to their respective &quot;read&quot; methods for processing. Otherwise, skips the tag.
-    private static Question readQuestion(XmlPullParser parser) throws XmlPullParserException, IOException {
-        parser.require(XmlPullParser.START_TAG, ns, "question");
+    private static Question readQuestion(JSONObject json) throws JSONException {
+
 
         Question question = null;
 
-        String tag = parser.getName();
-        String questionType = parser.getAttributeValue(null, "type");
-        if (tag.equals("question")) {
-            if(questionType.equals("label")){
-                question = LabelQuestion.CreateFromXML(parser);
-            }
-            else if(questionType.equals("text")){
-                question = TextQuestion.CreateFromXML(parser);
-            }
-            else if(questionType.equals("singleOption")){
-                question = SingleOptionQuestion.CreateFromXML(parser);
-            }
-            else if(questionType.equals("multiOption")){
-                question = MultiOptionQuestion.CreateFromXML(parser);
-            }
-            else if(questionType.equals("combo")){
-                question = SpinnerQuestion.CreateFromXML(parser);
-            }
-            else if(questionType.equals("time")){
-                question = TimeQuestion.CreateFromXML(parser);
-            }
-            else if(questionType.equals("date")){
-                question = DateQuestion.CreateFromXML(parser);
-            }
-            else if(questionType.equals("yesNo")){
-                question = YesNoQuestion.CreateFromXML(parser);
-            }
-            else if(questionType.equals("gps")){
-                question = GPSQuestion.CreateFromXML(parser);
-            }
-            else if(questionType.equals("photo")){
-                question = PhotoQuestion.CreateFromXML(parser);
-            }
-            else if(questionType.equals("network")){
-                question = NetworkQuestion.CreateFromXML(parser);
-            }
-            else if(questionType.equals("author")){
-                question = AuthorQuestion.CreateFromXML(parser);
-            }
-            else if(questionType.equals("startDate")){
-                question = StartDateQuestion.CreateFromXML(parser);
-            }
-            else if(questionType.equals("finishDate")){
-                question = FinishDateQuestion.CreateFromXML(parser);
-            }
-            else if(questionType.equals("address")){
-                question = AuthorQuestion.CreateFromXML(parser);
-            }
-        }
-        parser.nextTag();
+        String tag = json.getString(QUESTION_TYPE);
+        if(tag.equals("Simple"))    question = SingleOptionQuestion.createFromJSON(json);
+        if(tag.equals("Multiple"))  question = MultiOptionQuestion.createFromJSON(json);
+        if(tag.equals("Abierta"))   question = TextQuestion.createFromJSON(json);
 
         return question;
     }

@@ -2,6 +2,8 @@ package com.smartmatic.sitesurvey.data;
 
 import java.util.ArrayList;
 
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.xmlpull.v1.XmlPullParser;
 
 import com.smartmatic.sitesurvey.*;
@@ -28,16 +30,16 @@ public class TextQuestion extends Question implements Cloneable {
 	private TextWatcher watcher;
 	float innerFontSize = 14;
 		
-	public TextQuestion(String questionName, String questionLabel, String questionAnswer, 
-			String _fontSize, String _color, String _inputType, String _hint, String _repeat,  String _innerFontSize) {
-		super(questionName, questionLabel, questionAnswer, _fontSize, _color);
+	public TextQuestion(String questionName,  String questionAnswer,
+			String _inputType, String _hint) {
+		super(questionName, questionAnswer, "");
 
-		if (_innerFontSize != null && _innerFontSize != "")
-			innerFontSize = Float.parseFloat(_innerFontSize);
+		/*if (_innerFontSize != null && _innerFontSize != "")
+			innerFontSize = Float.parseFloat(_innerFontSize);*/
 		
 		inputType = _inputType;
 		hint = _hint;
-		if(_repeat!=null) dependency = _repeat; 
+		//if(_repeat!=null) dependency = _repeat;
 		
 		watcher = new TextWatcher(){
             public void afterTextChanged(Editable s) {
@@ -142,23 +144,22 @@ public class TextQuestion extends Question implements Cloneable {
 		
 	}
 	
-	public static Question CreateFromXML(XmlPullParser parser){
-		
-		String name = parser.getAttributeValue(null, "name");
-		String label = parser.getAttributeValue(null, "label");
-		String inputType = parser.getAttributeValue(null, "inputType");
-		String hint = parser.getAttributeValue(null, "hint");
-		String fontSize = parser.getAttributeValue(null, "font-size");
+	public static Question createFromJSON(JSONObject json) throws JSONException {
+
+		String name = json.getString("name");
+		String inputType = "text";
+		String hint = "Please enter your answer here";
+		/*String fontSize = parser.getAttributeValue(null, "font-size");
 		String innerFontSize = parser.getAttributeValue(null, "inner-font-size");
 		String color = parser.getAttributeValue(null, "font-color");
-		String repeat = parser.getAttributeValue(null, "repeat");
+		String repeat = parser.getAttributeValue(null, "repeat");*/
 		
-		return new TextQuestion(name, label, "", fontSize, color, inputType, hint, repeat, innerFontSize);
+		return new TextQuestion(name, "", inputType, hint);
 	}
 
 	@Override
 	public Question clone() {
-		TextQuestion tq= new TextQuestion(name, label, "", String.valueOf(fontSize), color, inputType, hint, dependency, String.valueOf(innerFontSize));
+		TextQuestion tq= new TextQuestion(name, "", inputType, hint);
 		tq.page = page;
 		return tq;
 	}

@@ -12,6 +12,11 @@ import android.view.ViewGroup;
 
 public abstract class Question implements Cloneable{
 
+	public int FormNum;
+	public int SectionNum;
+	public int QuestionNum;
+	public int AnswerNum;
+
 	public String name;
 	public String label;
 	public String answer;
