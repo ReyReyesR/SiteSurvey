@@ -95,7 +95,6 @@ public class SurveyAdapter extends FragmentPagerAdapter {
 
 	@Override
 	public int getCount() {
-		// Show 3 total pages.
 		return SurveyFragment.GetPagesCount();
 	}
 	

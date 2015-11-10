@@ -30,16 +30,16 @@ public class JSONHandler {
     private static final String TAG_ANSWER_TYPE = "Type";
     private static final String TAG_NUMBER = "Number";
 
-     static Formats 	[] forms;
-     static Sections 	[] A;
-     static Questions  	[] B;
-     static Answers 	[] C;
+    static Formats 	[] forms;
+    static Sections 	[] A;
+    static Questions  	[] B;
+    static Answers 	[] C;
 
     private JSONArray formatos, sections, questions, answers;
 
     public boolean PopulateStruct (String jsonStr){
 
-         if (jsonStr != null) {
+        if (jsonStr != null) {
             try {
 
                 JSONObject json = new JSONObject(jsonStr);
