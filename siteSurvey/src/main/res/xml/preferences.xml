@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/preferences_ws">
+
+        <EditTextPreference
+                android:key="webserviceip_preference"
+                android:title="@string/preferences_ipaddress_title"
+                android:dialogTitle="@string/preferences_ipaddress_dialogtitle" 
+                android:defaultValue="10.10.2.30"/>
+
+    
+    </PreferenceCategory>
+    
+  	<PreferenceCategory
+            android:title="@string/preferences_manualLocation">
+        
+        <CheckBoxPreference
+			   android:key="manualLocation_preference" 
+			   android:title="@string/preferences_manual_title" 
+			   android:summary="@string/preferences_manual_dialogtitle" />	
+			
+    </PreferenceCategory>
+    
+</PreferenceScreen>

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.smartmatic.sitesurvey.MainActivity">
+  
+
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/ic_action_action_search"
+          android:title="@string/action_search"
+          android:showAsAction="ifRoom|collapseActionView"
+          android:actionViewClass="android.support.v7.widget.SearchView"/>
+ 
+ 	<item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings" />
+ 	
+ 	<item
+        android:id="@+id/action_newPS"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_action_add_ps"
+        android:title="@string/action_addPS"
+        android:showAsAction="ifRoom|collapseActionView" />
+
+</menu>

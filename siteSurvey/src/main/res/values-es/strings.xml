@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SiteSurvey</string>
+    <string name="title_section0">Mapa</string>
+    <string name="title_section1">Pendientes</string>
+    <string name="title_section2">Finalizadas</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="title_activity_survey">Survey</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_addPS">Añadir nuevo</string>
+    
+    <string name="PSAdapter_notClose">ERROR: usted no se encuentra cerca de la casa seleccionada</string>
+    <string name="PSAdapter_validating">Validando posición&#8230;</string>
+    
+    <string name="MainActivity_added">¡La casa ha sido agregada!</string>
+    <string name="MainActivity_alreadyExists">ERROR: Ya existe una casa en esta posición!</string>
+    
+    <string name="canceled">Cancelado</string>
+    <string name="drive">¿Cómo llegar?</string>
+    <string name="survey">Encuestar</string>
+    <string name="classroom">Miembro</string>
+    <string name="answered">Respondida</string>
+    <string name="answer_it">Responder</string>
+    <string name="finish_survey">Finalizar encuesta</string> 
+    <string name="cancel">Cancelar</string>
+    <string name="add">Agregar</string>
+    
+    <string name="newps_add_polling_station">Agregar nueva casa</string>
+    <string name="newps_name">Nombre</string>
+    <string name="newps_address">Dirección (referencia)</string>
+    <string name="newps_retrievingLon">Obteniendo longitud&#8230;</string>
+    <string name="newps_retrievingLat">Obteniendo latitud&#8230;</string>
+    
+    
+    <string name="preferences_ipaddress_title">Dirección IP</string>
+    <string name="preferences_ipaddress_dialogtitle">Dirección IP del servidor</string>
+    <string name="preferences_ws">Configuraciones</string>
+    
+    <string name="preferences_latitude_title">Latitud</string>
+    <string name="preferences_latitude_dialogtitle">Coordenada latitud</string>
+    <string name="preferences_manualLocation">Configuración de ubicación</string>
+    <string name="preferences_longitude_title">Longitud</string>
+    <string name="preferences_longitude_dialogtitle">Coordenada longitud</string>
+    <string name="preferences_manual_title">Localización manual</string>
+    <string name="preferences_manual_dialogtitle">Permitir la localización de forma manual</string>
+    
+     <string name="Question_incongruence">Se ha detectado una incongruencia en las repuestas de las preguntas</string>
+    <string name="And">y</string>
+    
+    
+
+</resources>

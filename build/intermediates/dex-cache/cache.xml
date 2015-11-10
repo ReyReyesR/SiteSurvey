@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-0c11b17af2abdf8c215c03bbb2ee9e1c413f8116.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-8b4625833e0fb16dc5a37ccd6068a25583c6533f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-a2689ea76785a4bc3d3b6b989d80cf66004317f1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-b316e4fe30d323076fc8d76691f95e982ecc0cfc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-075318ce7da48d72153d78cf92df770f57c19fcf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a57337a520bf40b9ad1e074cb780527dffa1aac">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-31f0968c4578165a3462e9a9254244e0953fbac7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-04587545beb41f90fde2d61940441f005346614b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-d760e7ee3e13b5b2b33d1fae1a2d2bbe6df023fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-b0b98862d772379622f09e3cd2602e3fb3616fc8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-cb0089ecc5d8c7d477fc64c96e656deb50ca43c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-564ce6923fc7ef72827f163935996776aa0afa1a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-e642d5550fbd1e35bc7fa5a5d1b74507c312c8c7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-0871b67831623f6b343ad20a68c492985aba94e1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-582e1c1d012d8a783a6f60a759c082f377a88b35.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-c32479276565b70a51423b401a0b31c687b54150.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-8434e5164cd6d19b6dbd78d47b93293aeaf20517.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-67c148f4f866d7f67bbe1517da3bdbaac4bc438d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-0b3e229dd3870a0fde5854302e82a88b6523ed8a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-20b1ecfdc4d96487914564d198622061c3ea9e89.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\SiteSurvey\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f792b107bc842e24f1a6a7d98151f9d7fe7f93e6">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-bba8f6733a84927d9ef81da96260a4bf4b1e55f9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-0b0abe46ce707c20f9c1a3c0426ee207e9b95df4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-e49020fc024846fc6481c607840e47e025967cda.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-39a4cb7146b6c1404fd6c2d852e67438f6d29663.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-a8bea46275c66fce1bd4f7000b6179db2c681f46.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-5ccc020a5b7812b62d8dd842e937e6bdbfcdff24.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-40cc27f126642c77d35c872a4930b418a1a67a42.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-65c648938ca6ff0fdf4e5a773905beb17438a3e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="076c7d9e22cc325b8008ff799e0c06dfb8eefdf3">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-cca29571b29f1bd0c4fc7a4ecfffaccb2a010784.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\libs\ksoap2-android-assembly-2.5.8-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d6e6d14301616c866b7eff210ece6579299417ec">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.5.8-jar-with-dependencies-b3370134e52c37cee37717ae1bdea3675b821000.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-36b925457b80dceaddc48fb1422cf015ae0ea860.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-65c65d01680c8ea9e08112ff6452033991e87d0e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\pre-dexed\debug\classes-96c0c4ddbdb3c297fd102a3cf5256f0d36b9e50c.jar" />
+    </item>
+
+</items>
