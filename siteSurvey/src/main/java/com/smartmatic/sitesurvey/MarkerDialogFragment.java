@@ -2,10 +2,12 @@ package com.smartmatic.sitesurvey;
 
 import com.smartmatic.sitesurvey.PendingListFragment.PSAdapter;
 
+import android.annotation.SuppressLint;
 import android.app.*;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
+@SuppressLint("ValidFragment")
 public class MarkerDialogFragment extends DialogFragment {
 
 	private int position = 1;
@@ -35,10 +37,10 @@ public class MarkerDialogFragment extends DialogFragment {
 
             	switch (which) {
 				case 0:
-					PSAdapter.StartDrive(position);
+					PSAdapter.startDrive(position);
 					break;
 				case 1:
-					PSAdapter.StartSurvey(position);
+					PSAdapter.startSurvey(position);
 					break;
 
 				default:

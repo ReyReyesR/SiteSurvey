@@ -1,4 +1,10 @@
 package com.smartmatic.sitesurvey.data;
+/*
+*Text question object, is a particular case of Question object
+* it is used when the type of answer is anopen type.
+*@param receives JSON Object.
+*@return Text Question Question object.
+*/
 
 import java.util.ArrayList;
 
@@ -29,137 +35,163 @@ public class TextQuestion extends Question implements Cloneable {
 	private EditText editText;
 	private TextWatcher watcher;
 	float innerFontSize = 14;
-		
-	public TextQuestion(String questionName,  String questionAnswer,
-			String _inputType, String _hint) {
-		super(questionName, questionAnswer, "");
 
-		/*if (_innerFontSize != null && _innerFontSize != "")
-			innerFontSize = Float.parseFloat(_innerFontSize);*/
-		
+	//Text Question Constructor
+	public TextQuestion(String questionName, String questionLabel, String questionAnswer,
+						String _fontSize, String _color, String _inputType, String _hint,
+						String _repeat,  String _innerFontSize,int idSection,int idQuestion,
+						int idAnswer,String idForm) {
+		super(questionName, questionLabel, questionAnswer, _fontSize, _color);
+
+		if (_innerFontSize != null && _innerFontSize != "")
+			innerFontSize = Float.parseFloat(_innerFontSize);
+
 		inputType = _inputType;
 		hint = _hint;
-		//if(_repeat!=null) dependency = _repeat;
-		
-		watcher = new TextWatcher(){
-            public void afterTextChanged(Editable s) {
-            	answer = s.toString();
-            	if(listener!=null) listener.onAnswered(answer);
-            }
-            public void beforeTextChanged(CharSequence s, int start, int count, int after){}
-            public void onTextChanged(CharSequence s, int start, int before, int count){}
-        };
-    			
-	}
-	
-	@Override
-	public View GetView(LayoutInflater inflater, ViewGroup container, final SurveyActivity activityRef, final SurveyAdapter surveyAdapter, int parentId){
-		
-		View view =  inflater.inflate(R.layout.text_question,container, false);
-    	TextView textLabel = (TextView)view.findViewById(R.id.description);
-    	textLabel.setText(this.label);
-    	textLabel.setTextSize(fontSize);
-    	
-    	Typeface tf = Typeface.createFromAsset(activityRef.getAssets(), "fonts/OpenSans-Regular.ttf");
-    	textLabel.setTypeface(tf);
-        
-    	try{
-    		textLabel.setTextColor(Color.parseColor(color));
-    	} catch (Exception e) {}		
+		if(_repeat!=null) dependency = _repeat;
 
-    	//editText = (EditText)view.findViewById(R.id.editText);
-    	//((ViewGroup)view).removeView(editText);
-    	   	
-    	editText = new EditText(view.getContext());
-    	
-    	if(inputType == null){
-    		editText.setInputType(InputType.TYPE_NULL);
-    	}
-    	else if(inputType.equals("text")){
-    		editText.setInputType(InputType.TYPE_CLASS_TEXT);
-    	}
-    	else if(inputType.equals("numeric")) {
-    		editText.setInputType(InputType.TYPE_CLASS_NUMBER);
-    	}
-    	
-    	editText.setHint(hint);
-    	
-    	watcher = new TextWatcher(){
-            public void afterTextChanged(Editable s) {
-            	answer = s.toString();
-            	if(listener!=null) listener.onAnswered(answer);
-            	
-            	//LIVE VALIDATIONS
-        		for (ArrayList<Question> page : surveyAdapter.survey.pages) {
-        			for (Question question : page) {
-        				
-                		if(name.equals("C116")){
+		watcher = new TextWatcher(){
+			public void afterTextChanged(Editable s) {
+				answer = s.toString();
+				if(listener!=null) listener.onAnswered(answer);
+			}
+			public void beforeTextChanged(CharSequence s, int start, int count, int after){}
+			public void onTextChanged(CharSequence s, int start, int before, int count){}
+		};
+
+	}
+
+	@Override
+	public View GetView(LayoutInflater inflater, ViewGroup container,
+						final SurveyActivity activityRef, final SurveyAdapter surveyAdapter,
+						int parentId){
+
+		View view =  inflater.inflate(R.layout.text_question,container, false);
+		TextView textLabel = (TextView)view.findViewById(R.id.description);
+		textLabel.setText(this.label);
+		textLabel.setTextSize(fontSize);
+
+		Typeface tf = Typeface.createFromAsset(activityRef.getAssets(), "fonts/OpenSans-Regular.ttf");
+		textLabel.setTypeface(tf);
+
+		try{
+			textLabel.setTextColor(Color.parseColor(color));
+		} catch (Exception e) {}
+
+		//editText = (EditText)view.findViewById(R.id.editText);
+		//((ViewGroup)view).removeView(editText);
+
+		editText = new EditText(view.getContext());
+
+		if(inputType == null){
+			editText.setInputType(InputType.TYPE_NULL);
+		}
+		else if(inputType.equals("text")){
+			editText.setInputType(InputType.TYPE_CLASS_TEXT);
+		}
+		else if(inputType.equals("numeric")) {
+			editText.setInputType(InputType.TYPE_CLASS_NUMBER);
+		}
+
+		editText.setHint(hint);
+
+		watcher = new TextWatcher(){
+			public void afterTextChanged(Editable s) {
+				answer = s.toString();
+				if(listener!=null) listener.onAnswered(answer);
+
+
+				//LIVE VALIDATIONS
+				for (ArrayList<Question> page : surveyAdapter.survey.pages) {
+					for (Question question : page) {
+
+						if(name.equals("C116")){
 							if(question.name.equals("C115")){
 								if(!answer.equals("")){
-									if((question.answer.equals("c115_1") /*Ninguno*/ && Integer.parseInt(answer) > 0)
-										|| (question.answer.equals("c115_2") /*1*/ && Integer.parseInt(answer) > 1)
-										|| (question.answer.equals("c115_3") /*2 a 3*/ && Integer.parseInt(answer) > 3)){
+									if((question.answer.equals("c115_1") /*Ninguno*/ &&
+											Integer.parseInt(answer) > 0)
+											|| (question.answer.equals("c115_2") /*1*/ &&
+											Integer.parseInt(answer) > 1)
+											|| (question.answer.equals("c115_3") /*2 a 3*/ &&
+											Integer.parseInt(answer) > 3)){
 										ShowAlertDialog(activityRef,
-											activityRef.getText(R.string.Question_incongruence) + " " 
-											+ label + " " + activityRef.getText(R.string.And) + " " + question.label);
+												activityRef.getText(R.string.Question_incongruence)
+												+ " "+ label + " " +
+														activityRef.getText(R.string.And) + " " +
+														question.label);
 									}
 								}
 								break;
 							}
-                		}
+						}
 					}
-        		}
-            }
-            public void beforeTextChanged(CharSequence s, int start, int count, int after){}
-            public void onTextChanged(CharSequence s, int start, int before, int count){}
-        };
-    	
+				}
+			}
+			public void beforeTextChanged(CharSequence s, int start, int count, int after){}
+			public void onTextChanged(CharSequence s, int start, int before, int count){}
+		};
 
-    	editText.removeTextChangedListener(watcher);
-    	editText.setText(answer);
-    	editText.addTextChangedListener(watcher);
-    	
-    	editText.setTypeface(tf);
-    	editText.setTextSize(innerFontSize);
-    	
-    	((ViewGroup)view).addView(editText);
-    	
-    	
-		return view;	
+
+		editText.removeTextChangedListener(watcher);
+		editText.setText(answer);
+		editText.addTextChangedListener(watcher);
+
+		editText.setTypeface(tf);
+		editText.setTextSize(innerFontSize);
+
+		((ViewGroup)view).addView(editText);
+
+
+		return view;
 	}
-	
+
 	private void ShowAlertDialog(Context context, String message){
-		
+
 		AlertDialog.Builder builder = new AlertDialog.Builder(context);
 		builder.setMessage(message)
-		       .setCancelable(false)
-		       .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-		           public void onClick(DialogInterface dialog, int id) {
-		                //do things
-		        	   dialog.cancel();
-		           }
-		       });
+				.setCancelable(false)
+				.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int id) {
+						//do things
+						dialog.cancel();
+					}
+				});
 		AlertDialog alert = builder.create();
 		alert.show();
-		
+
 	}
-	
-	public static Question createFromJSON(JSONObject json) throws JSONException {
+	/* Creation of Text Question object from a JSON Object
+	* @param receives JSON Object.
+	* @return Text Question Question object.
+	* @throws JSONException if JSON object is null or empty.
+	*/
+
+	public static Question createFromJSON(JSONObject json, String idSection,
+										  String idQuestion,String idForm) throws JSONException {
 
 		String name = json.getString("name");
+		String idAnswer = json.getString("PkForm");
 		String inputType = "text";
 		String hint = "Please enter your answer here";
-		/*String fontSize = parser.getAttributeValue(null, "font-size");
-		String innerFontSize = parser.getAttributeValue(null, "inner-font-size");
-		String color = parser.getAttributeValue(null, "font-color");
-		String repeat = parser.getAttributeValue(null, "repeat");*/
-		
-		return new TextQuestion(name, "", inputType, hint);
+		String label ="label";
+		String fontSize ="14";
+		String innerFontSize = "12";
+		String color = "black";
+		String repeat = "no";
+		int i=Integer.parseInt(idSection);
+		int j=Integer.parseInt(idQuestion);
+		int k=Integer.parseInt(idAnswer);
+
+
+		return new TextQuestion(name, label, "", fontSize, color, inputType, hint, repeat,
+				innerFontSize, i, j,k,idForm);
 	}
 
-	@Override
+		@Override
 	public Question clone() {
-		TextQuestion tq= new TextQuestion(name, "", inputType, hint);
+		TextQuestion tq= new TextQuestion(name, label, "", String.valueOf(fontSize), color,
+				inputType, hint, dependency, String.valueOf(innerFontSize), idSection,
+				idQuestion,idAnswer,idForm);
 		tq.page = page;
 		return tq;
 	}

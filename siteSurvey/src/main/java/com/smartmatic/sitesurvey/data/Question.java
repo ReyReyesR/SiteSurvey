@@ -1,5 +1,7 @@
 package com.smartmatic.sitesurvey.data;
 
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.xmlpull.v1.XmlPullParser;
 
 import com.smartmatic.sitesurvey.SurveyActivity;
@@ -12,11 +14,6 @@ import android.view.ViewGroup;
 
 public abstract class Question implements Cloneable{
 
-	public int FormNum;
-	public int SectionNum;
-	public int QuestionNum;
-	public int AnswerNum;
-
 	public String name;
 	public String label;
 	public String answer;
@@ -26,6 +23,10 @@ public abstract class Question implements Cloneable{
 	public int repeated = 0;
 	public int page = 0;
 	public AnsweredListener listener;
+	public int idSection;
+	public int idQuestion;
+	public int idAnswer;
+	public String idForm;
 	
 	public interface AnsweredListener 
     {
@@ -57,7 +58,7 @@ public abstract class Question implements Cloneable{
 	
 	public abstract Question clone();
 	
-	public static Question CreateFromXML(XmlPullParser parser) {
+	public static Question createFromJSON(JSONObject json, String idSection, String idQuestion) throws JSONException {
 		return null;
 	}
 	
@@ -66,9 +67,8 @@ public abstract class Question implements Cloneable{
 	    if (other == null) return false;
 	    if (!(other instanceof Question))return false;
 	    Question otherQuestion = (Question)other;
-	    if(otherQuestion.name == this.name) return true;
-	    
-	    return false;
+		return otherQuestion.name == this.name;
+
 	}
 
 

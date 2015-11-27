@@ -36,10 +36,10 @@ public class PendingListFragment extends ListFragment{
 	private static double lon = 10.488558; // latitud de archivo de config
 	private static double lat = -66.93399; // longiud de archivo de config
 	private static 	SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.US);
-	//SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS", Locale.US);
+
 	public static String startDate;
-	
-	// Colombia lat = 4.647758; lon = -74.101735; 
+
+	// Colombia lat = 4.647758; lon = -74.101735;
 	// Venezuela lat = 10.488558, lon = -66.933990
 	
 	public static ArrayList<PollingStation> psArray = new ArrayList<PollingStation>();
@@ -63,25 +63,27 @@ public class PendingListFragment extends ListFragment{
 	public static void setData(ArrayList<PollingStation> _psArray){
 		if(psArray.size() == 0 && _psArray!=null)
 			psArray = _psArray;
+		if(psAdapter!=null)  psAdapter.notifyDataSetChanged();
 	}
 	
-	public static void AddNew(PollingStation ps){
+	public static void addNew(PollingStation ps){
 		ps.id = PendingListFragment.psArray.size();
 		psArray.add(ps);
 		if(psAdapter!=null)  psAdapter.notifyDataSetChanged();
 	}
-	public static void Remove(PollingStation ps){
+	public static void remove(PollingStation ps){
 		psArray.remove(ps);
+
 		if(psAdapter!=null)  psAdapter.notifyDataSetChanged();
 	}
-	public static PollingStation Get(int psId){
+	public static PollingStation get(int psId){
 		for(PollingStation ps : psArray){
 			if(ps.id == psId)
 				return ps;
 		}
 		return null;
 	}
-	public static boolean Contains(PollingStation ps){
+	public static boolean contains(PollingStation ps){
 		return psArray.contains(ps);
 	}
 
@@ -131,7 +133,7 @@ public class PendingListFragment extends ListFragment{
 				
 				@Override
 				public void onClick(View v) {
-					StartSurvey(position);			
+					startSurvey(position);
 				}
 			});
 			
@@ -148,14 +150,14 @@ public class PendingListFragment extends ListFragment{
 								+ psArray.get(position).lon +"&zoom=15"
 								+ "&size=50x50"
 								+ "&sensor=true_or_false"
-								+ "&markers=size:small%7Ccolor:red%7C" + psArray.get(position).lat + "," + psArray.get(position).lon);
+								+ "&markers=size:small%7color:red%7C" + psArray.get(position).lat + "," + psArray.get(position).lon);
 			}
 			
 			mapButton.setOnClickListener(new CustomOnClickListener(position) {
 				
 				@Override
 				public void onClick(View v) {
-					StartDrive(position);
+					startDrive(position);
 				}
 			});
 			
@@ -175,32 +177,35 @@ public class PendingListFragment extends ListFragment{
 			return view;
 		}
 
-		public static void StartSurvey(final int position) {
+		public static void startSurvey(final int position) {
 			final Toast t= Toast.makeText(context, context.getString(R.string.PSAdapter_validating), Toast.LENGTH_LONG);
 			t.show();
-			
+
 			final LocationManager locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
-			Criteria criteria = new Criteria();			
+			Criteria criteria = new Criteria();
 	        String provider = locationManager.getBestProvider(criteria, false);
+
 	        final Location currentLocation = locationManager.getLastKnownLocation(provider);
-	          
+
 	        LocationListener locationListener = new LocationListener() {
 	            public void onLocationChanged(Location location) {
-	            		
+
             		int ps_id= psArray.get(position).id;
         			Location placeLocation = new Location("");
         			placeLocation.setLatitude(psArray.get(position).lat);
         			placeLocation.setLongitude(psArray.get(position).lon);
         			float distance = 0;
         			// Si fue modificada variables lat y lon omitir
-        			if ((PreferenceManager.getDefaultSharedPreferences(context).getBoolean("manualLocation_preference", false))){ 
-        	        
+        			if ((PreferenceManager.getDefaultSharedPreferences(context).getBoolean("manualLocation_preference", false))){
+
         				Location manualLocation = new Location("");
         				manualLocation.setLatitude(lat);
-        				manualLocation.setLongitude(lon);            			
+        				manualLocation.setLongitude(lon);
             			if(LocationUtil.isBetterLocation(placeLocation, manualLocation)){
-            				distance= location.distanceTo(placeLocation);
+
+							distance= location.distanceTo(placeLocation);
     	            	}else{
+
     	            		distance= manualLocation.distanceTo(placeLocation);
     	            	}            			
         			}
@@ -208,10 +213,11 @@ public class PendingListFragment extends ListFragment{
 	        			if(LocationUtil.isBetterLocation(location, currentLocation)){
 	        				distance= location.distanceTo(placeLocation);
 		            	}else{
-		            		distance= currentLocation.distanceTo(placeLocation);
+		            		distance = currentLocation.distanceTo(placeLocation);
+
 		            	}
         			}
-        			if(distance < 100){		// tengo posicion(encuesta) y valido la posicion(lat y lon)  
+        			if(distance < 100){		// tengo posicion(encuesta) y valido la posicion(lat y lon)
         				t.cancel(); 
         				Intent i = new Intent(context, SurveyActivity.class);
         				i.putExtra("PLACE_ID", ps_id); 
@@ -233,11 +239,11 @@ public class PendingListFragment extends ListFragment{
 	          
 
 	          // Register the listener with the Location Manager to receive location updates
-	          locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
-	          locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
+	        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
+			locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
 		}
 		
-		public static void StartDrive(int position){
+		public static void startDrive(int position){
 			// TODO Auto-generated method stub
 			String uri = String.format(Locale.ENGLISH, 
 					//"geo:%f,%f (%s)",
@@ -265,5 +271,4 @@ public class PendingListFragment extends ListFragment{
 	        }
 		}
 	}
-	
 }

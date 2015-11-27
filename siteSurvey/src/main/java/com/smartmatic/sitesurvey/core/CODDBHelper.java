@@ -94,8 +94,8 @@ public class CODDBHelper extends SQLiteOpenHelper {
 		db.beginTransaction();
 		try{
 			switch (oldVersion) {
-			case 1:	;
-		}
+			case 1:
+			}
 			db.setTransactionSuccessful();
 		} finally {
 		     db.endTransaction();

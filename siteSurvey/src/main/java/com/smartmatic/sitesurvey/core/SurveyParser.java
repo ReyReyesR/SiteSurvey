@@ -1,48 +1,34 @@
 package com.smartmatic.sitesurvey.core;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.*;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.xmlpull.v1.*;
 
 import com.smartmatic.sitesurvey.data.*;
 
-import android.content.Context;
-import android.os.Environment;
-import android.util.Xml;
+/**<p>
+ *      This class parses a JSON Object which is received from the Main Activity.
+ *      The methods in this class are private except for GetQuestionary(), which is the main call for
+ *      this class to parse, fill the questions objects and return an Arraylist consisting of several
+ *      question objects that later are used to construct the survey.
+ * </p>
+ * @author Reynaldo
+ */
 
 public class SurveyParser {
 
-    private static final String ns = null;
-    private static final String configFile = "Configuration.xml";
+    private static final String TAG_SECTIONS = "Sections";
+    private static final String FORM_ID = "PkForm";
+    private static final String SECTION_ID = "PkSection";
+    private static final String QUESTION_ID = "PkQuestion";
+    private static final String TAG_QUESTION = "Questions";
+    private static final String QUESTION_TYPE = "Type";
     public static int fullSize = 12;
     public static int withKeyboardSize = 5;
     public static Hashtable<String, ArrayList<Question>> dependencies;
-    private static final String DATA = "Data";
-    private static final String TAG_SECTIONS = "Sections";
-    private static final String FORM_ID = "PKForm";
-    private static final String SECTION_ID = "PKSection";
-    private static final String QUESTION_ID = "PKQestion";
-    private static final String ANSWER_ID = "PKAnswer";
-    private static final String TAG_SECTION_NAME = "Name";
-    private static final String TAG_QUESTION = "Questions";
-    private static final String TAG_QUESTION_CREATION = "DateCreation";
-    private static final String TAG_TITLE = "Title";
-    private static final String TAG_ANSWER = "Answers";
-    private static final String TAG_ANSWER_NAME = "Name";
-    private static final String TAG_ANSWER_TYPE = "Type";
-    private static final String TAG_NUMBER = "Number";
-    private static final String TAG_END = "DateEnd";
-    private static final String QUESTION_TYPE = "Type";
-
-    private static AnswerArray A;
 
     public static ArrayList<Question> getQuestionary(String JSONString) {
 
@@ -54,99 +40,50 @@ public class SurveyParser {
         return null;
     }
 
-    private static InputStream getConfigFile(Context context) {
-        if(isExternalStorageReadable()){
-            // Get the directory for the app's private files
-            File file = new File(context.getExternalFilesDir(null), configFile);
-
-
-            try {
-                return new FileInputStream(file);
-            } catch (FileNotFoundException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
-        }
-
-        return null;
-
-    }
-
-    /* Checks if external storage is available to at least read */
-    private static boolean isExternalStorageReadable() {
-        String state = Environment.getExternalStorageState();
-        if (Environment.MEDIA_MOUNTED.equals(state) ||
-                Environment.MEDIA_MOUNTED_READ_ONLY.equals(state)) {
-            return true;
-        }
-        return false;
-    }
-
-    public static ArrayList<Question> parse(String JSONString) throws JSONException {
+   private static ArrayList<Question> parse(String JSONString) throws JSONException {
         try {
             JSONObject json = new JSONObject(JSONString);
-            //Checks for initial JSON Array
             return readFile(json);
-        }  catch (JSONException e) {
-            e.printStackTrace();
-        } catch (XmlPullParserException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+        }  catch (JSONException | IOException e) {
             e.printStackTrace();
         }
-        return null;
+       return null;
     }
 
-    private static ArrayList<Question> readFile(JSONObject json) throws XmlPullParserException, IOException, JSONException {
+    /** <p>
+     *      This function receives a JSON object and parses trough all the elements until a Question
+     *      tag is reached. The JSON object contains various nested JSON Arrays that represent
+     *      different levels of the survey info, such as Forms, Sections, Questions and Answers,
+     *      these arrays must be parsed in order to reach the questions that are needed to construct
+     *      the survey. Once the Question tag is reached, the function calls
+     *      readQuestions(JSON Object).
+     *  </p>
+     *
+     * @param json a JsonObject containing Forms info.
+     * @return an ArrayList containing various question object.
+     * @throws JSONException if JSON object is empty or null.
+     */
 
-        JSONArray formatos, sections, quest, answers;
-        String idSection;
-        dependencies = new Hashtable<String, ArrayList<Question>>();
-        ArrayList<Question> questions = new ArrayList<Question>();
-        //Checks for initial JSON Array
+    private static ArrayList<Question> readFile(JSONObject json) throws IOException, JSONException {
+
+        JSONArray forms, sections;
+        final String DATA = "Data";
+        String idSection,idForm;
+        dependencies = new Hashtable<>();
+        ArrayList<Question> questions = new ArrayList<>();
         if (json.has(DATA)) {
-            formatos = json.getJSONArray(DATA);
-
-            // Getting Array
-            for (int h = 0; h < formatos.length(); h++) {
-                JSONObject f = formatos.getJSONObject(h);
-                //FORM ID
-                A = new AnswerArray();
-                A.putPKForm((f.getInt(FORM_ID)));
-
+            forms = json.getJSONArray(DATA);
+            for (int h = 0; h < forms.length(); h++) {
+                JSONObject f = forms.getJSONObject(h);
+                idForm=(f.getString(FORM_ID));
                 if (f.has(TAG_SECTIONS)) {
-                    Answer B = new Answer();
                     sections = f.getJSONArray(TAG_SECTIONS);
-                    // looping through All Content
                     for (int i = 0; i < sections.length(); i++) {
                         JSONObject s = sections.getJSONObject(i);
-                        //B.putPKSection(s.getInt(SECTION_ID));
                         idSection=(s.getString(SECTION_ID));
-
                         if (s.has(TAG_QUESTION)) {
-                            dependencies.put(idSection, readQuestions(s));
-                            questions = readQuestions(s);
-                            /*quest = s.getJSONArray(TAG_QUESTION);
-
-                            // Storing each json item in variable
-                            for (int j = 0; j < quest.length(); j++) {
-
-                                JSONObject q = quest.getJSONObject(j);
-
-                                dependencies.put(idSection, readQuestions(q));
-                                questions = readQuestions(q);
-                                //B.putPKQuestion(q.getInt(QUESTION_ID));
-
-                                if (q.has(TAG_ANSWER)) {
-                                    answers = q.getJSONArray(TAG_ANSWER);
-
-
-                                    for (int k = 0; k < answers.length(); k++) {
-                                        JSONObject a = answers.getJSONObject(k);
-                                        //B.putPKAnswer(a.getInt(Answer_ID));
-                                    }
-                                }
-                            }*/
+                            dependencies.put(idSection, readQuestions(s,idSection,idForm));
+                            questions = readQuestions(s,idSection,idForm);
                         }
                     }
                 }
@@ -155,34 +92,48 @@ public class SurveyParser {
         return questions;
     }
 
-    private static ArrayList<Question> readQuestions(JSONObject json) throws JSONException {
-        ArrayList<Question> questions = new ArrayList<Question>();
+    /** <p>
+     *      This function parses all the question elements inside the JSON object, once a question is
+     *      found the JSON array containing the questions is passed to readQuestion so each individual
+     *      question gets created.
+     * </p>
+    *@param json receives a JSON Object.
+    *@return an Arraylist of question objects.
+    *@throws JSONException if JSON object is empty or null.
+    */
+
+    private static ArrayList<Question> readQuestions(JSONObject json, String idSection, String idForm) throws JSONException {
+        ArrayList<Question> questions = new ArrayList<>();
 
         JSONArray quest = json.getJSONArray(TAG_QUESTION);
         for (int j = 0; j < quest.length(); j++) {
 
             JSONObject q = quest.getJSONObject(j);
-            questions.add(readQuestion(q));
+            questions.add(readQuestion(q,idSection,idForm));
         }
 
         return questions;
     }
 
-
-    // Parses the contents of an entry. If it encounters a title, summary, or link tag, hands them
-    // off
-    // to their respective &quot;read&quot; methods for processing. Otherwise, skips the tag.
-    private static Question readQuestion(JSONObject json) throws JSONException {
-
-
+    /** <p>
+     *      This function parses the contents of a question tag. In here the type of question is
+     *      discerned through the QUESTION_TYPE tag, this tag determines which question class is invoked,
+     *      there are three possible types: Simple Selection, Multiple Selection and Open Question.
+     * </p>
+    *@param json receives a JSON Object
+    *@return a question object.
+    *@throws JSONException if JSON object is empty or null.
+    */
+    private static Question readQuestion(JSONObject json, String idSection,String idForm) throws JSONException {
+        String idQuestion;
         Question question = null;
 
-        String tag = json.getString(QUESTION_TYPE);
-        if(tag.equals("Simple"))    question = SingleOptionQuestion.createFromJSON(json);
-        if(tag.equals("Multiple"))  question = MultiOptionQuestion.createFromJSON(json);
-        if(tag.equals("Abierta"))   question = TextQuestion.createFromJSON(json);
+        String tag = json.getString (QUESTION_TYPE);
+        idQuestion = json.getString (QUESTION_ID);
+        if(tag.equals("Simple"))    question = SingleOptionQuestion.createFromJSON  (json,idForm,idSection,idQuestion);
+        if(tag.equals("Multiple"))  question = MultiOptionQuestion.createFromJSON   (json,idForm,idSection,idQuestion);
+        if(tag.equals("Abierta"))   question = TextQuestion.createFromJSON          (json,idForm,idSection,idQuestion);
 
         return question;
     }
-
 }

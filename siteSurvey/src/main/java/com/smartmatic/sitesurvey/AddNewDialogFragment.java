@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class AddNewDialogFragment extends DialogFragment {
@@ -76,8 +77,8 @@ public class AddNewDialogFragment extends DialogFragment {
 	            public void onLocationChanged(Location location) {
 	            	if(LocationUtil.isBetterLocation(location, currentBestLocation)){
 		            	// Called when a new location is found by the network location provider.
-		            	((EditText)view.findViewById(R.id.lat)).setText(String.valueOf(location.getLatitude()));
-		            	((EditText)view.findViewById(R.id.lon)).setText(String.valueOf(location.getLongitude()));
+		            	((TextView)view.findViewById(R.id.lat)).setText(String.valueOf(location.getLatitude()));
+		            	((TextView)view.findViewById(R.id.lon)).setText(String.valueOf(location.getLongitude()));
 		            	
 		            	// Remove the listener you previously added
 		            	locationManager.removeUpdates(this);

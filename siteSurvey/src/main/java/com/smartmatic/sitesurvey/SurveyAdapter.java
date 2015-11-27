@@ -26,7 +26,6 @@ public class SurveyAdapter extends FragmentPagerAdapter {
 		survey=_survey;
 		SetDependencies(survey);
 		SurveyFragment.SetSurvey(survey, this);
-		
 	}
 	
 	

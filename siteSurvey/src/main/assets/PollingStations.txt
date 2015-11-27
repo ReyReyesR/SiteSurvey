@@ -1,0 +1,3 @@
+Punto1  CasaAzul    10.488558   -66.93399
+Punto2  CasaAzul    10.488522   -66.93399
+Punto3  CasaAzul    10.488558   -66.93422

@@ -1,52 +1,77 @@
 package com.smartmatic.sitesurvey.data;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- * Created by Reynaldo on 16/11/2015.
+ * <p>
+ *     This class consists of private vars that are filled with public calls from a instantiated
+ *     Answer object. It contains all the data that will be fed to the service that fills the DB
+ *     with the answers to the surveys.
+ * </p>
+ * @author Reynaldo
  */
 public class Answer {
 
-    JSONObject ProcessedAnswers=new JSONObject();
-    int PKSection;
-    int PKQuestion;
-    int PKAnswer;
-    int Device=0;
-    int IdPerson;
-    String Value;
-    double CoordinatesX;
-    double CoordinatesY;
+    JSONObject processedAnswers=new JSONObject();
+    private int FkSection;
+    private int FkQuestion;
+    private int FkAnswer;
+    private int IdPerson;
+    private String Value;
+    private double CoordinatesX;
+    private double CoordinatesY;
+    int device = 1;
 
     public Answer(){
     }
 
+    /**
+     * <p>
+     *     This function puts the info in the JSON Object, the info is contained in the object
+     *     variables.
+     * </p>
+     * @author Reynaldo
+     */
     public void fillObject() throws JSONException {
 
-        JSONObject ProcessedAnswers=new JSONObject();
-
-        ProcessedAnswers.put("PKSection",PKSection);
-        ProcessedAnswers.put("PKQuestion",PKQuestion);
-        ProcessedAnswers.put("PKAnswer",PKAnswer);
-        ProcessedAnswers.put("Device",Device);
-        ProcessedAnswers.put("IdPerson",IdPerson);
-        ProcessedAnswers.put("Value",Value);
-        ProcessedAnswers.put("CoordinatesX",CoordinatesX);
-        ProcessedAnswers.put("CoordinatesY",CoordinatesY);
+        processedAnswers.put("FkSection",FkSection);
+        processedAnswers.put("FkQuestion",FkQuestion);
+        processedAnswers.put("FkAnswer",FkAnswer);
+        processedAnswers.put("Device", device);
+        processedAnswers.put("IdPerson",IdPerson);
+        processedAnswers.put("Value",Value);
+        processedAnswers.put("CoordinatesX",CoordinatesX);
+        processedAnswers.put("CoordinatesY", CoordinatesY);
     }
+
+    /**
+     * <p>
+     *     This function returns the JSON Object filled with the answers, since the object is
+     *     instantiated when the object is filled, the mere existence of the object secures it has
+     *     valid data in it.
+     * </p>
+     * @returns ProcessedAnswers The JSON Object containing the survey answers.
+     * @returns null if the JSON Object is not instantiated
+     * @throws JSONException if the JSON object is null, hence returning null.
+     * @author Reynaldo
+     */
 
     public JSONObject returnObject() throws JSONException {
-      return ProcessedAnswers;
+
+        if (processedAnswers!=null) return processedAnswers;
+        else return null;
     }
 
-    public void putPKSection (int PKSection){
-        this.PKSection=PKSection;
+    public void putFKSection (int FkSection){
+        this.FkSection=FkSection;
     }
-    public void putPKQuestion (int PKQuestion){
-        this.PKQuestion=PKQuestion;
+    public void putFKQuestion (int FkQuestion){
+        this.FkQuestion=FkQuestion;
     }
-    public void putPKAnswer (int PKAnswer){
-        this.PKAnswer=PKAnswer;
+    public void putFKAnswer (int FkAnswer){
+        this.FkAnswer=FkAnswer;
     }
     public void putIdPerson (int IdPerson){
         this.IdPerson=IdPerson;
@@ -60,7 +85,4 @@ public class Answer {
     public void putCoordinatesY (int CoordinatesY){
         this.CoordinatesY=CoordinatesY;
     }
-
-
-
 }

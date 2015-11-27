@@ -2,12 +2,10 @@ package com.smartmatic.sitesurvey;
 
 import android.app.ActionBar;
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.app.ProgressDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 
 import android.os.AsyncTask;
@@ -29,33 +27,39 @@ import android.widget.Toast;
 
 import com.smartmatic.sitesurvey.AddNewDialogFragment.OnResultListener;
 
-import com.smartmatic.sitesurvey.core.TransmiterTask;
+import com.smartmatic.sitesurvey.core.PollingStationParser;
+import com.smartmatic.sitesurvey.core.SurveyAdapterBuilder;
+import com.smartmatic.sitesurvey.core.SurveyParser;
+import com.smartmatic.sitesurvey.core.TransmitterTask;
 import com.smartmatic.sitesurvey.data.PollingStation;
+import com.smartmatic.sitesurvey.data.Question;
+import com.smartmatic.sitesurvey.data.Survey;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+/**<p>
+ * The Main Activity of siteSurvey has four primary objectives
+ * First it obtains a JSON object with survey information that is used to create surveys
+ * Second initializes and sets the new surveys
+ * Third initializes the polling station locations where surveys are done
+ * Fourth it creates a Fragment view of the map, new and complete surveys
+ *
+ * @author Reynaldo
+ * </p>
+ */
 
 public class MainActivity extends Activity implements ActionBar.TabListener {
 
     private ProgressDialog pDialog;
-    /**
-     * The {@link android.support.v4.view.PagerAdapter} that will provide
-     * fragments for each of the sections. We use a {@link FragmentPagerAdapter}
-     * derivative, which will keep every loaded fragment in memory. If this
-     * becomes too memory intensive, it may be best to switch to a
-     * {@link android.support.v13.app.FragmentStatePagerAdapter}.
-     */
     SectionsPagerAdapter mSectionsPagerAdapter;
-    /**
-     * The {@link ViewPager} that will host the section contents.
-     */
     ViewPager mViewPager;
-    JSONHandler JSONHandle;
     String JSONString;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        JSONHandle= new JSONHandler();
 
         // Set up the action bar.
         final ActionBar actionBar = getActionBar();
@@ -81,25 +85,33 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
 
         // For each of the sections in the app, add a tab to the action bar.
         for (int i = 0; i < mSectionsPagerAdapter.getCount(); i++) {
-            // Create a tab with text corresponding to the page title defined by
-            // the adapter. Also specify this Activity object, which implements
-            // the TabListener interface, as the callback (listener) for when
-            // this tab is selected.
+            /*Create a tab with text corresponding to the page title defined by the adapter. Also
+            specify this Activity object, which implements the TabListener interface, as the
+            callback (listener) for when this tab is selected.*/
             actionBar.addTab(actionBar.newTab()
                     .setText(mSectionsPagerAdapter.getPageTitle(i))
                     .setTabListener(this));
         }
 
-        new TransmiterTask().execute(getApplicationContext());
+        new TransmitterTask().execute(getApplicationContext());
+        //Object of function that gets JSON Objects
         getJSON JSONFile = new getJSON();
+        //Checks for Build Version for Async tasks
         if (Build.VERSION.SDK_INT>= Build.VERSION_CODES.HONEYCOMB)
             JSONFile.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
         else
             JSONFile.execute();
     }
 
-    /**
-     * Created by Reynaldo on 10/11/2015.
+    /**<p>
+     * This function is an AsyncTask that does 3 processes, first blocks the UI thread and creates a
+     * worker thread. second the worker thread calls a function that establishes a connection with a
+     * host and obtains a JSON object and last the worer thread ends and the function that
+     * initializes Survey is called.
+     * </p>
+     *
+     * @author Reynaldo
+     * @see AsyncTask
      */
 
     private class getJSON extends AsyncTask<Void, Void, Void> {
@@ -112,24 +124,21 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
         }
 
         protected Void doInBackground(Void... arg0) {
-
-            String url = "http://192.168.1.114:12316/API/Form";
-
             try {
                 // Simulate network access.
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 return null;
             }
-
             // Getting JSON string from URL
-            //ServiceHandler sh = new ServiceHandler();
-            // Making a request to url and getting response*/
-            //JSONString = sh.makeServiceCall(url, ServiceHandler.GET);
-            //Log.d("Response: ", "> " + JSONString);
-            //Survey survey = new Survey(SurveyParser.getQuestionary(JSONString), SurveyParser.dependencies, SurveyParser.fullSize, SurveyParser.withKeyboardSize);
-            //SurveyAdapterBuilder.setSurvey(survey);
-            //PendingListFragment.setData(PollingStationParser.GetPollingStations(getApplicationContext()));
+            ServiceHandler sh = new ServiceHandler();
+            // Making a request to url and getting a JSON in response
+            try {
+                JSONString = sh.getServiceCall(FileReader.getUrl(getApplicationContext(),1));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            Log.d("Response: ", "> " + JSONString);
 
             return null;
         }
@@ -140,13 +149,11 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
             // Dismiss the progress dialog
             if (pDialog.isShowing())
                 pDialog.dismiss();
-
-            //if (JSONHandle.populateStruct(JSONString)){
-
-
-            //}else{
-
-            //}
+            //Creation of a Survey with the JSON Object
+            ArrayList<Question> question = SurveyParser.getQuestionary(JSONString);
+            Survey survey = new Survey(question, SurveyParser.dependencies, SurveyParser.fullSize, SurveyParser.withKeyboardSize);
+            SurveyAdapterBuilder.setSurvey(survey);
+            PendingListFragment.setData(PollingStationParser.getPollingStations(getApplicationContext()));
         }
     }
 
@@ -204,14 +211,11 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
                     PollingStation ps = new PollingStation();
                     ps.title = title;
                     ps.description = address;
-                    /**
-                     * Created by Reynaldo on 10/11/2015.
-                     */
-                    ps.lat = 10.5080572; //mSectionsPagerAdapter.mapFragment.getLatitude();
-                    ps.lon = -66.9102813; //mSectionsPagerAdapter.mapFragment.getLongitude();
+                    ps.lat =mSectionsPagerAdapter.mapFragment.getLatitude(); //10.5080572
+                    ps.lon =mSectionsPagerAdapter.mapFragment.getLongitude(); //-66.9102813
 
-                    if(!PendingListFragment.Contains(ps)){
-                        PendingListFragment.AddNew(ps);
+                    if(!PendingListFragment.contains(ps)){
+                        PendingListFragment.addNew(ps);
                         Toast.makeText(getApplicationContext(), getText(R.string.MainActivity_added),
                                 Toast.LENGTH_SHORT).show();
                     }
@@ -235,10 +239,6 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
 
         if(tab.getPosition() == 0 && mSectionsPagerAdapter.mapFragment!=null){
             mSectionsPagerAdapter.mapFragment.DrawMarkers();
-        }
-        if(tab.getPosition() == 3) {
-            showSimplePopUp();
-
         }
     }
 
@@ -264,7 +264,7 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
         SurveysMapFragment mapFragment;
         PendingListFragment pendingListFragment;
         FinishedListFragment finishedListFragment;
-        FinishedListFragment jsonListFragment;
+        //FinishedListFragment jsonListFragment;
         @Override
         public Fragment getItem(int position) {
             // getItem is called to instantiate the fragment for the given page.
@@ -281,26 +281,22 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
                     pendingListFragment = new PendingListFragment();
                 return  pendingListFragment;
             }
-            else if(position == 2){
+            else {
                 if(finishedListFragment == null)
                     finishedListFragment = new FinishedListFragment();
                 return  finishedListFragment;
-            }
-            else{
-
-                if(jsonListFragment == null)
-                    jsonListFragment = new FinishedListFragment();
-                return  jsonListFragment;
             }
         }
 
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 4;
+            return 3;
         }
 
+
         @Override
+        //Fragment Tab title
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
@@ -309,8 +305,6 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
                     return getString(R.string.title_section1);
                 case 2:
                     return getString(R.string.title_section2);
-                case 3:
-                    return getString(R.string.title_section3);
             }
             return null;
         }
@@ -346,26 +340,4 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
             return inflater.inflate(R.layout.fragment_main, container,false);
         }
     }
-
-    /**
-     * Created by Reynaldo on 10/11/2015.
-     */
-    private void showSimplePopUp() {
-
-        AlertDialog.Builder helpBuilder = new AlertDialog.Builder(this);
-        helpBuilder.setTitle("Formas");
-        helpBuilder.setMessage("Name: ");
-        helpBuilder.setPositiveButton("Ok",
-                new DialogInterface.OnClickListener() {
-
-                    public void onClick(DialogInterface dialog, int which) {
-                        // Do nothing but close the dialog
-                    }
-                });
-
-        // Remember, create doesn't show the dialog
-        AlertDialog helpDialog = helpBuilder.create();
-        helpDialog.show();
-    }
-
 }

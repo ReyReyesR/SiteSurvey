@@ -24,7 +24,7 @@ public class RepeatQuestion extends Question implements Cloneable {
 		
 	
 	public RepeatQuestion(String questionName, String questionLabel, String _fontSize, String _color,int depId, String depName) {
-		super(questionName, questionLabel, "",_fontSize,_color);	
+		super(questionName, questionLabel, "",_fontSize,_color);
 		space = 1;
 		
 		dependentId = depId;

@@ -41,7 +41,7 @@ public class WebServiceClient {
         
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS", Locale.US);
         		
-        SendSurvey(c, new DataSurvey("admin",format.format(new Date()), format.format(new Date()), 1, av));
+        //SendSurvey(c, new DataSurvey("admin",format.format(new Date()), format.format(new Date()), 1, av));
 	}
     
 	public static boolean SendSurvey(Context context, DataSurvey survey) {

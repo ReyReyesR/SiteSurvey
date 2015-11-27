@@ -23,22 +23,22 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 
 public class SurveysMapFragment extends MapFragment   {
-	
+
     private GoogleMap map;
 	private  Location location;
-     
+
     private static double lat = 10.5080572; // latitud de archivo de config
 	private static double lon = -66.9102813; // longiud de archivo de config
-	
-	// Colombia lat = 4.647758; lon = -74.101735; 
+
+	// Colombia lat = 4.647758; lon = -74.101735;
 	// Venezuela lat = 10.488558, lon = -66.933990
-	
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_main);
     }
-	
+
 	private void setMarker(LatLng position, String titulo, String info) {
 		  // Agregamos marcadores para indicar sitios de intereses.
 		  map.addMarker(new MarkerOptions()
@@ -47,7 +47,7 @@ public class SurveysMapFragment extends MapFragment   {
 		       .snippet(info)   //Agrega informacion detalle relacionada con el marcador
 		       .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))); //Color del marcador
 		}
-	
+
     @Override
     public void onResume() {
         super.onResume();
@@ -69,14 +69,14 @@ public class SurveysMapFragment extends MapFragment   {
             }else{
             	//map.animateCamera(CameraUpdateFactory.newLatLngZoom(
             			//new LatLng(PendingListFragment.psArray.get(0).lat, PendingListFragment.psArray.get(0).lon),13));
-            	
+
             }
-            
+
             map.setOnMarkerClickListener(new OnMarkerClickListener() {
-				
+
 				@Override
 				public boolean onMarkerClick(Marker arg0) {
-					
+
 					int position = 0;
 					for(PollingStation ps : PendingListFragment.psArray){
 						if(ps.title.equals(arg0.getTitle())){
@@ -88,18 +88,19 @@ public class SurveysMapFragment extends MapFragment   {
 					return true;
 				}
 			});
-            
+
         }
 
         DrawMarkers();
     }
 
 	public double getLatitude(){
+		location=map.getMyLocation();
 		return location.getLatitude();
 	}
 
 	public double getLongitude(){
-
+		location=map.getMyLocation();
 		return location.getLongitude();
 	}
 
@@ -107,7 +108,7 @@ public class SurveysMapFragment extends MapFragment   {
 	public void DrawMarkers(){
     	if (map != null) {
 	    	map.clear();
-	    	if (PreferenceManager.getDefaultSharedPreferences(getActivity().getApplicationContext()).getBoolean("manualLocation_preference", false)){ 
+	    	if (PreferenceManager.getDefaultSharedPreferences(getActivity().getApplicationContext()).getBoolean("manualLocation_preference", false)){
 	            setMarker(new LatLng(lat,lon),null,null);
 	        }
 	    	//circle
@@ -122,14 +123,13 @@ public class SurveysMapFragment extends MapFragment   {
 	        .strokeColor(Color.RED)
 	        .fillColor(Color.BLUE));
 	    	*/
-	    	
+
 	    	for(PollingStation ps : PendingListFragment.psArray){
 	    		map.addMarker(new MarkerOptions()
-	                .title(ps.title)
-	                .snippet(ps.description)
-	                .position(new LatLng(ps.lat, ps.lon)));
+						.title(ps.title)
+						.snippet(ps.description)
+						.position(new LatLng(ps.lat, ps.lon)));
 	    	}
-	    	
    	 	}
     }
 }

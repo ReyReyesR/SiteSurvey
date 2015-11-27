@@ -16,7 +16,8 @@ public class Survey {
 	public int withKeyboardSize = 5;
 	public int parentId = 0;
 	public String startDate;
-	//SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS", Locale.US);
+	int idSection,idQuestion,idAnswer;
+	String value;
 	SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.US);
 
 	public Survey(ArrayList<Question> _questions, Hashtable<String, ArrayList<Question>> _dependentQuestions, int _fullSize, int _withKeyboardSize) {
@@ -54,12 +55,14 @@ public class Survey {
 			}
 			q.page = pageCount;
 			page.add(q.clone());
+
+
 		}
 		if(page.size()>0)
 			pages.add(page);
 
 		page = new ArrayList<Question>();
-		page.add(new FinishQuestion());
+		page.add(new FinishQuestion(idSection,idQuestion,idAnswer,value));
 		pages.add(page);
 
 		if(_dependentQuestions!= null){

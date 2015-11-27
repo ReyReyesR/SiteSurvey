@@ -17,4 +17,4 @@ public class CustomOnClickListener implements OnClickListener
       //read your lovely variable
   }
 
-};
+}
