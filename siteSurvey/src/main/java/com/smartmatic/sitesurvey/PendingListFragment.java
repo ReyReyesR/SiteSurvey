@@ -29,6 +29,20 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+/**
+ * <p>
+ *     This class represents the list of pending poll locations on the app, a list of polling
+ *     station names with a miniature picture of the location on Google maps is displayed. Once the
+ *     list is fully loaded a listener is created, when one of the items is clicked a validation is
+ *     made with the current GPS location and the polling station location. If the distance from the
+ *     mobile phone is less than 100 meters, the user is able to survey the person, otherwise, the
+ *     survey cannot be made. Once a survey is finished is removed from the pending list and it
+ *     enters the finished list.
+ * </p>
+ *
+ * @author Reynaldo
+ */
+
 public class PendingListFragment extends ListFragment{
 	
 	private static PSAdapter psAdapter = null;
@@ -156,9 +170,6 @@ public class PendingListFragment extends ListFragment{
 				}
 			});
 			
-			//ImageView img = (ImageView) view.findViewById(R.id.image);
-			//img.setImageDrawable(context.getResources().getDrawable(psArray.get(position).image));
-			
 			TextView tTitle = (TextView) view.findViewById(R.id.title);
 			tTitle.setText(psArray.get(position).title);
 			
@@ -191,7 +202,8 @@ public class PendingListFragment extends ListFragment{
         			placeLocation.setLongitude(psArray.get(position).lon);
         			float distance;
         			// Si fue modificada variables lat y lon omitir
-        			if ((PreferenceManager.getDefaultSharedPreferences(context).getBoolean("manualLocation_preference", false))){
+        			if ((PreferenceManager.getDefaultSharedPreferences(context).getBoolean
+							("manualLocation_preference", false))){
 
         				Location manualLocation = new Location("");
         				manualLocation.setLatitude(lat);
@@ -200,7 +212,6 @@ public class PendingListFragment extends ListFragment{
 
 							distance= location.distanceTo(placeLocation);
     	            	}else{
-
     	            		distance= manualLocation.distanceTo(placeLocation);
     	            	}            			
         			}
@@ -212,7 +223,7 @@ public class PendingListFragment extends ListFragment{
 
 		            	}
         			}
-        			if(distance < 100){		// tengo posicion(encuesta) y valido la posicion(lat y lon)
+        			if(distance < 100){
         				t.cancel(); 
         				Intent i = new Intent(context, SurveyActivity.class);
         				i.putExtra("PLACE_ID", ps_id); 
@@ -220,9 +231,9 @@ public class PendingListFragment extends ListFragment{
         				context.startActivity(i);
         			}
         			else{
-        				Toast.makeText(context, context.getString(R.string.PSAdapter_notClose), Toast.LENGTH_LONG).show();
+        				Toast.makeText(context, context.getString(R.string.PSAdapter_notClose),
+								Toast.LENGTH_LONG).show();
         			}
-            		
 	            	// Remove the listener you previously added
 	            	locationManager.removeUpdates(this);
 	            }
@@ -231,17 +242,17 @@ public class PendingListFragment extends ListFragment{
 				@Override
 				public void onStatusChanged(String provider, int status, Bundle extras) {}
 	          };
-	          
 
 	          // Register the listener with the Location Manager to receive location updates
-	        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
-			locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
+	        locationManager.requestLocationUpdates(LocationManager.
+					NETWORK_PROVIDER, 0, 0, locationListener);
+			locationManager.requestLocationUpdates(LocationManager.
+					GPS_PROVIDER, 0, 0, locationListener);
 		}
 		
 		public static void startDrive(int position){
 			// TODO Auto-generated method stub
-			String uri = String.format(Locale.ENGLISH, 
-					//"geo:%f,%f (%s)",
+			String uri = String.format(Locale.ENGLISH,
 					"http://maps.google.com/maps?&daddr=%f,%f (%s)",
 					psArray.get(position).lat,
 					psArray.get(position).lon, 
@@ -249,19 +260,13 @@ public class PendingListFragment extends ListFragment{
 			Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
 			intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity"); 
 			
-			try
-	        {
-			 context.startActivity(intent);
-	        }
-	        catch(ActivityNotFoundException ex)
-	        {
-	            try
-	            {
+			try{
+				context.startActivity(intent);
+	        }catch(ActivityNotFoundException ex){
+	            try{
 	                Intent unrestrictedIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
 	                context.startActivity(unrestrictedIntent);
-	            }
-	            catch(ActivityNotFoundException ignored)
-	            {
+	            }catch(ActivityNotFoundException ignored){
 	            }
 	        }
 		}

@@ -116,7 +116,7 @@ public class SurveysMapFragment extends MapFragment   {
 	         .center(new LatLng(PendingListFragment.psArray.get(0).lat, PendingListFragment.psArray.get(0).lon))
 	         .radius(500)
 	         .strokeColor(Color.BLUE)
-	         .fillColor(Color.argb(60, 0, 0, 100)));*/
+	         .fillColor(Color.argb(60, 0, 0, 100)));
 	    	/*
 	    	map.addPolygon(new PolygonOptions()
 	        .add(new LatLng(x, y), new LatLng(x, y-2), new LatLng(x+3, y-2), new LatLng(x, y))

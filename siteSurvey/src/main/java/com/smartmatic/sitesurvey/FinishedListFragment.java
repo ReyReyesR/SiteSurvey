@@ -17,6 +17,19 @@ import android.widget.ImageView;
 import android.widget.ImageView.ScaleType;
 import android.widget.TextView;
 
+/**
+ * <p>
+ *     This class represents the list of finished poll locations on the app, a list of polling
+ *     station names with a miniature picture of the location on Google maps is displayed. An
+ *     asynchronous task is invoked from the start of the app, this task runs in the background.
+ *     Once an item is entered in the finished list, every x seconds the AsyncTask tries to transmit
+ *     the Answer object to the service. On success the Finished survey is deleted from the list,
+ *     otherwise it is displayed on the finished list until it is transmitted.
+ * </p>
+ *
+ * @author Reynaldo
+ */
+
 public class FinishedListFragment extends ListFragment{
 	
 	private static PSAdapter psAdapter = null;	
@@ -47,10 +60,6 @@ public class FinishedListFragment extends ListFragment{
 		
 		if(psAdapter!=null)  psAdapter.notifyDataSetChanged();
 	}
-	/*public static void Remove(PollingStation ps){
-		psArray.remove(ps);
-		if(psAdapter!=null)  psAdapter.notifyDataSetChanged();
-	}*/
 	
 	public static void SetAsTransmitted(PollingStation ps){
 		ps.transmitted = true;
@@ -87,11 +96,11 @@ public class FinishedListFragment extends ListFragment{
 			View view;
 			if(convertView == null){
 				//Make a new view
-				LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+				LayoutInflater inflater = (LayoutInflater)context.
+						getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 				
 				view = inflater.inflate(R.layout.row_finished, null);
-			}
-			else{
+			}else{
 				//Use convertView if it is available
 				view = convertView;
 			}
@@ -103,7 +112,8 @@ public class FinishedListFragment extends ListFragment{
 			TextView tDescription = (TextView) view.findViewById(R.id.description);
 			tDescription.setText(ps.description);
 			
-			Typeface tf = Typeface.createFromAsset(context.getAssets(), "fonts/OpenSans-Regular.ttf");
+			Typeface tf = Typeface.createFromAsset(context.getAssets(),
+					"fonts/OpenSans-Regular.ttf");
 			tTitle.setTypeface(tf);
 			tDescription.setTypeface(tf);
 			
@@ -115,23 +125,5 @@ public class FinishedListFragment extends ListFragment{
 			
 			return view;
 		}
-
-		/*public View jsonView(int position, View convertView, ViewGroup parent){
-			View view = null;
-			if(convertView == null){
-				//Make a new view
-				LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-
-				view = inflater.inflate(R.layout.row_finished, null);
-			}
-			else{
-				//Use convertView if it is available
-				view = convertView;
-			}
-
-
-		return view;}*/
-	
 	}
-	
 }
