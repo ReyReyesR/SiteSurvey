@@ -1,7 +1,6 @@
 package com.smartmatic.sitesurvey;
 
 import java.util.ArrayList;
-import java.util.Date;
 
 import com.smartmatic.sitesurvey.core.SurveyAdapterBuilder;
 import com.smartmatic.sitesurvey.data.Question;
@@ -37,9 +36,8 @@ public class SurveyActivity extends Activity {
 	public int depId;
 	public String depName;
 	int lastPosition = 0;
-	public static Date startedDate = new Date();
-	
-	public ArrayList<OnResultListener> resultListeners = new ArrayList<SurveyActivity.OnResultListener>();
+
+	public ArrayList<OnResultListener> resultListeners = new ArrayList<>();
 	
 	public interface OnResultListener 
     {
@@ -67,7 +65,7 @@ public class SurveyActivity extends Activity {
 		    	getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 	    	
 	    	}
-	    	catch(Exception e){
+	    	catch(Exception ignored){
 	    	}
 	    	
 	    	super.onPageSelected(position);
@@ -116,10 +114,7 @@ public class SurveyActivity extends Activity {
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
+		return id == R.id.action_settings || super.onOptionsItemSelected(item);
 	}
 	
 	@Override
@@ -133,7 +128,7 @@ public class SurveyActivity extends Activity {
 				setResult(1,returnIntent);
 				finish();
 			}
-		}catch(Exception e){}
+		}catch(Exception ignored){}
 	}
 	//TODO:
 	//PENDIENTE
@@ -150,7 +145,7 @@ public class SurveyActivity extends Activity {
 						l.onResult(requestCode, resultCode, data);
 					}
 			}
-		}catch(Exception e){}
+		}catch(Exception ignored){}
     }
 	
 	public void addOnResultListener(OnResultListener l) {

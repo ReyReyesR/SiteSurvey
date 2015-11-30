@@ -6,434 +6,68 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="E/" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89a656de-1719-4995-868e-1d3b5972d9ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/FinishQuestion$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/FinishQuestion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/MultiOptionQuestion$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/MultiOptionQuestion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/Option.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/mediarouter/R$anim.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/R$anim.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/mediarouter/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/ads/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/analytics/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appstate/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/base/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/cast/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/drive/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/fitness/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/games/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/gcm/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/identity/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/location/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/maps/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/measurement/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/nearby/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/panorama/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/plus/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/vision/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wallet/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wearable/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/viewpagerindicator/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/mediarouter/R$bool.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/R$bool.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/viewpagerindicator/R$bool.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/mediarouter/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/ads/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/analytics/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appstate/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/base/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/cast/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/drive/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/fitness/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/games/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/gcm/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/identity/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/location/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/maps/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/measurement/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/nearby/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/panorama/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/plus/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/vision/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wallet/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wearable/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/viewpagerindicator/R$color.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/mediarouter/R$dimen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/R$dimen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/viewpagerindicator/R$dimen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/mediarouter/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/ads/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/analytics/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appstate/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/base/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/cast/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/drive/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/fitness/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/games/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/gcm/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/identity/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/location/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/maps/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/measurement/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/nearby/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/panorama/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/plus/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/vision/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wallet/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wearable/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/viewpagerindicator/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/mediarouter/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/ads/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/analytics/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appstate/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/base/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/cast/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/drive/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/fitness/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/games/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/gcm/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/identity/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/location/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/maps/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/measurement/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/nearby/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/panorama/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/plus/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/vision/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wallet/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wearable/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/viewpagerindicator/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/mediarouter/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/ads/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/analytics/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appstate/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/base/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/cast/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/drive/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/fitness/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/games/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/gcm/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/identity/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/location/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/maps/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/measurement/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/nearby/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/panorama/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/plus/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/vision/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wallet/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wearable/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/viewpagerindicator/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/mediarouter/R$layout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/R$layout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/R$menu.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/ads/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/analytics/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appstate/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/base/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/cast/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/drive/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/fitness/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/games/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/gcm/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/identity/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/location/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/maps/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/measurement/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/nearby/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/panorama/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/plus/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/vision/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wallet/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wearable/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/mediarouter/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/ads/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/analytics/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appstate/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/base/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/cast/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/drive/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/fitness/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/games/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/gcm/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/identity/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/location/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/maps/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/measurement/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/nearby/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/panorama/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/plus/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/vision/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wallet/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wearable/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/mediarouter/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/ads/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/analytics/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appstate/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/base/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/cast/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/drive/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/fitness/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/games/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/gcm/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/identity/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/location/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/maps/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/measurement/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/nearby/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/panorama/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/plus/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/vision/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wallet/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wearable/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/viewpagerindicator/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/mediarouter/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/ads/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/analytics/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appinvite/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appstate/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/base/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/cast/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/drive/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/fitness/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/games/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/gcm/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/identity/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/location/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/maps/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/measurement/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/nearby/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/panorama/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/plus/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/safetynet/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/vision/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wallet/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wearable/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/viewpagerindicator/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/R$xml.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/android/support/v7/mediarouter/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/ads/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/all/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/analytics/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appindexing/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appinvite/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/appstate/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/base/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/cast/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/drive/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/fitness/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/games/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/gcm/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/identity/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/location/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/maps/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/measurement/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/nearby/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/panorama/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/plus/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/safetynet/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/vision/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wallet/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/google/android/gms/wearable/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/viewpagerindicator/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/RepeatQuestion$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/RepeatQuestion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/SingleOptionQuestion$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/SingleOptionQuestion$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/SingleOptionQuestion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/TextQuestion$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/TextQuestion$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/TextQuestion$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/TextQuestion.class" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\appcompat_v7_22_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\ksoap2_android_assembly_2_5_8_jar_with_dependencies.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\mediarouter_v7_22_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\org_apache_http_legacy_android_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_ads_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_analytics_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_appindexing_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_appinvite_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_appstate_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_base_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_basement_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_cast_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_drive_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_fitness_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_games_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_gcm_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_identity_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_location_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_maps_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_measurement_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_nearby_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_panorama_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_plus_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_safetynet_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_vision_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_wallet_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_wearable_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\support_annotations_23_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\support_v13_23_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\support_v4_23_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\classes\debug\com\smartmatic\sitesurvey\JSONHandler$Answers.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\classes\debug\com\smartmatic\sitesurvey\JSONHandler$Formats.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\classes\debug\com\smartmatic\sitesurvey\JSONHandler$Questions.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\classes\debug\com\smartmatic\sitesurvey\JSONHandler$Sections.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\classes\debug\com\smartmatic\sitesurvey\JSONHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\classes\debug\com\smartmatic\sitesurvey\MainActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\classes\debug\com\smartmatic\sitesurvey\core\TransmiterTask$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\classes\debug\com\smartmatic\sitesurvey\core\TransmiterTask.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\classes\debug\com\smartmatic\sitesurvey\data\Answer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\classes\debug\com\smartmatic\sitesurvey\data\AnswerArray.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\classes\debug\com\smartmatic\sitesurvey\data\Form$AnsweredListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\classes\debug\com\smartmatic\sitesurvey\data\Form.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\src\main\java\com\smartmatic\sitesurvey\JSONHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\src\main\java\com\smartmatic\sitesurvey\data\Answer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\src\main\java\com\smartmatic\sitesurvey\data\AnswerArray.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\src\main\java\com\smartmatic\sitesurvey\data\AuthorQuestion.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\src\main\java\com\smartmatic\sitesurvey\data\DateQuestion.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\src\main\java\com\smartmatic\sitesurvey\data\FinishDateQuestion.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\src\main\java\com\smartmatic\sitesurvey\data\GPSQuestion.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\src\main\java\com\smartmatic\sitesurvey\data\LabelQuestion.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\src\main\java\com\smartmatic\sitesurvey\data\NetworkQuestion.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\src\main\java\com\smartmatic\sitesurvey\data\PhotoQuestion.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\src\main\java\com\smartmatic\sitesurvey\data\SpinnerQuestion.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\src\main\java\com\smartmatic\sitesurvey\data\StartDateQuestion.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\src\main\java\com\smartmatic\sitesurvey\data\TimeQuestion.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\src\main\java\com\smartmatic\sitesurvey\data\YesNoQuestion.java" afterPath="" />
       <change type="MOVED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\build\intermediates\classes\debug\com\smartmatic\sitesurvey\MainActivity$GetJSON.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MainActivity$getJSON.class" />
-      <change type="MOVED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\siteSurvey\src\main\java\com\smartmatic\sitesurvey\core\TransmiterTask.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/AddNewDialogFragment$1.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/AddNewDialogFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/AddNewDialogFragment$2.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/AddNewDialogFragment$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/AddNewDialogFragment$3.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/AddNewDialogFragment$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/AddNewDialogFragment.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/AddNewDialogFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/Answer.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/Answer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/AnswerArray.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/AnswerArray.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/FileReader.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/FileReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/FinishedListFragment$PSAdapter.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/FinishedListFragment$PSAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/FinishedListFragment.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/FinishedListFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/LoginActivity$3.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/LoginActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/LoginActivity$4.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/LoginActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/LoginActivity$UserLoginTask.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/LoginActivity$UserLoginTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/LoginActivity.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/LoginActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MainActivity$1.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MainActivity$2.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MainActivity$3.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MainActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MainActivity$PlaceholderFragment.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MainActivity$PlaceholderFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MainActivity$SectionsPagerAdapter.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MainActivity$SectionsPagerAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MainActivity.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MarkerDialogFragment$1.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MarkerDialogFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MarkerDialogFragment.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MarkerDialogFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MapActivity.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/MapActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment$PSAdapter$1.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment$PSAdapter$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment$PSAdapter$2.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment$PSAdapter$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment$PSAdapter$3.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment$PSAdapter$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment$PSAdapter.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment$PSAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/PollingStationParser.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/PollingStationParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/Question.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/Question.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/ServiceHandler.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/ServiceHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/Survey.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/Survey.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/SurveyAdapter$1.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/SurveyAdapter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/SurveyAdapter.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/SurveyAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/SurveyAdapterBuilder.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/SurveyAdapterBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/SurveyParser.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/SurveyParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/SurveysMapFragment.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/SurveysMapFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/SurveyActivity$MyPageChangeListener.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/SurveyActivity$MyPageChangeListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/SurveyActivity.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/SurveyActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/SurveyFragment.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/SurveyFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/TransmitterTask$1.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/TransmitterTask$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/TransmitterTask.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/TransmitterTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/WebServiceClient.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/WebServiceClient.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/outputs/apk/siteSurvey-debug-unaligned.apk" afterPath="$PROJECT_DIR$/siteSurvey/build/outputs/apk/siteSurvey-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/outputs/apk/siteSurvey-debug.apk" afterPath="$PROJECT_DIR$/siteSurvey/build/outputs/apk/siteSurvey-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/AddNewDialogFragment.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/AddNewDialogFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/siteSurvey/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/CODDBHelper.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/CODDBHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/CustomOnClickListener.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/CustomOnClickListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/FinishQuestion.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/FinishQuestion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Answer.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Answer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/AnswerArray.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/AnswerArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/FileReader.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/FileReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/FinishedListFragment.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/FinishedListFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/LoginActivity.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/LoginActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MainActivity.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MarkerDialogFragment.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MarkerDialogFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/MultiOptionQuestion.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/MultiOptionQuestion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Option.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Option.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MapActivity.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MapActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/PendingListFragment.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/PendingListFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/PollingStationParser.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/PollingStationParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/assets/debug/PollingStations.txt" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/assets/debug/PollingStations.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/assets/PollingStations.txt" afterPath="$PROJECT_DIR$/siteSurvey/src/main/assets/PollingStations.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Question.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Question.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/RepeatQuestion.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/RepeatQuestion.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/ServiceHandler.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/ServiceHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/SingleOptionQuestion.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/SingleOptionQuestion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Survey.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Survey.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyActivity.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyAdapter.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyAdapterBuilder.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyAdapterBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyParser.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveysMapFragment.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveysMapFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/TextQuestion.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/TextQuestion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/src/main/java/com/viewpagerindicator/TitlePageIndicator.java" afterPath="$PROJECT_DIR$/library/src/main/java/com/viewpagerindicator/TitlePageIndicator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/WebServiceClient.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/WebServiceClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build.gradle" afterPath="$PROJECT_DIR$/siteSurvey/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyFragment.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SiteSurvey.iws" />
@@ -527,101 +161,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FroyoAlbumDirFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/FroyoAlbumDirFactory.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocationUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/LocationUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PollingStationParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/PollingStationParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransmiterAlertTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmiterAlertTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserSettingActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/UserSettingActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransmitterTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="125" column="23" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Answer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnswersVector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/AnswersVector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSurvey.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/DataSurvey.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebServiceClient.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/WebServiceClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6626214">
-              <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.17525773">
+              <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -3093,7 +2637,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MapActivity.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/res/layout/dialog_newps.xml" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Form.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/LabelForm.java" />
@@ -3106,31 +2649,37 @@
         <option value="$PROJECT_DIR$/siteSurvey/build.gradle" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/assets/PollingStations.txt" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MarkerDialogFragment.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveysMapFragment.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/AnswerArray.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyAdapter.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/AddNewDialogFragment.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/getJSON.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/TextQuestion.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/PollingStationParser.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyActivity.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Survey.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/JSONHandler.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmiterTask.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Answer.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/FinishQuestion.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/PendingListFragment.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyParser.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MainActivity.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/ServiceHandler.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/FileReader.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Question.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/MultiOptionQuestion.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Option.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/SingleOptionQuestion.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/DataSurvey.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/WebServiceClient.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/UserSettingActivity.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/FileReader.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/AddNewDialogFragment.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/FinishedListFragment.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MapActivity.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/PendingListFragment.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/PhotoIntentActivity.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyActivity.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyAdapter.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyFragment.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveysMapFragment.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MainActivity.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Answer.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/ServiceHandler.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/AnswerArray.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java" />
       </list>
     </option>
   </component>
@@ -3173,10 +2722,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3193,20 +2740,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="siteSurvey" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SiteSurvey" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siteSurvey" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3249,30 +2782,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SiteSurvey" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siteSurvey" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sitesurvey" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3494,35 +3007,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25170067" sideWeight="0.86838126" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.664966" sideWeight="0.8789713" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30272108" sideWeight="0.8630862" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2329932" sideWeight="0.53177005" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.457483" sideWeight="0.74583966" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17687075" sideWeight="0.13161875" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.457483" sideWeight="0.25416037" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1632653" sideWeight="0.46369138" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1632653" sideWeight="0.46066564" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2755102" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2755102" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2065053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.48487142" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20953101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.48184568" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25170067" sideWeight="0.8630862" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -3531,11 +3044,11 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.664966" sideWeight="0.8789713" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17687075" sideWeight="0.13161875" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.49394855" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.49394855" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2755102" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2065053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.48487142" order="2" side_tool="false" content_ui="tabs" />
@@ -3552,8 +3065,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1632653" sideWeight="0.46369138" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -3584,18 +3097,6 @@
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/ServiceHandler.java</url>
-          <line>132</line>
-          <properties />
-          <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java</url>
-          <line>121</line>
-          <properties />
-          <option name="timeStamp" value="94" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/FinishQuestion.java</url>
           <line>27</line>
           <properties />
@@ -3614,22 +3115,28 @@
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java</url>
-          <line>80</line>
-          <properties />
-          <option name="timeStamp" value="103" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/SingleOptionQuestion.java</url>
           <line>80</line>
           <properties />
           <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/UserSettingActivity.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/PendingListFragment.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/ServiceHandler.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="124" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -3640,131 +3147,11 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="109" />
+      <option name="time" value="125" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/location/LocationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/AddNewDialogFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8789625">
-          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/java/util/Hashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="593" column="31" selection-start-line="593" selection-start-column="31" selection-end-line="593" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/StringVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5050" column="0" selection-start-line="5050" selection-start-column="0" selection-end-line="5050" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyAdapterBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/DataAlert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03353057">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/widget/RadioGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="358" column="0" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/widget/CompoundButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17082" column="0" selection-start-line="17082" selection-start-column="0" selection-end-line="17082" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/FinishedListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2088166">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/widget/RadioButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0745614">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/widget/TextView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="4172" column="22" selection-start-line="4172" selection-start-column="22" selection-end-line="4172" selection-end-column="22" />
-          <folding>
-            <element signature="e#149532#149533#0" expanded="false" />
-            <element signature="e#149574#149575#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/TextQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.9931507">
-          <caret line="193" column="16" selection-start-line="193" selection-start-column="16" selection-end-line="193" selection-end-column="16" />
-          <folding>
-            <element signature="e#3768#3819#0" expanded="true" />
-            <element signature="e#3867#3900#0" expanded="true" />
-            <element signature="e#4647#4799#0" expanded="true" />
-            <element signature="e#4798#4799#0" expanded="true" />
-            <element signature="e#6062#6063#0" expanded="true" />
-            <element signature="e#6081#6082#0" expanded="true" />
-            <element signature="e#6120#6121#0" expanded="true" />
-            <element signature="e#6170#6171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/PollingStation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5022727">
@@ -3778,51 +3165,6 @@
         <state vertical-scroll-proportion="0.3318182">
           <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4184783">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/AnswerArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52896726">
-          <caret line="61" column="37" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MapActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81360203">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/PendingListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.3098235">
-          <caret line="155" column="78" selection-start-line="155" selection-start-column="78" selection-end-line="155" selection-end-column="78" />
-          <folding>
-            <element signature="e#3789#3790#0" expanded="true" />
-            <element signature="e#3823#3824#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3847,51 +3189,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/app/Instrumentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1067" column="0" selection-start-line="1067" selection-start-column="0" selection-end-line="1067" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-17/android/app/ActivityThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2175" column="0" selection-start-line="2175" selection-start-column="0" selection-end-line="2175" selection-end-column="0" />
-          <folding>
-            <element signature="e#84825#84837#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/os/Looper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3323263">
-          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/os/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3323263">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding>
-            <element signature="e#2805#3013#0" expanded="true" />
-            <element signature="e#3012#3013#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/FinishQuestion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3912,26 +3209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="117" column="44" selection-start-line="117" selection-start-column="44" selection-end-line="117" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1346#1379#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/ServiceHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8250825">
-          <caret line="70" column="38" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3966,7 +3243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3974,7 +3250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3982,7 +3257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3990,7 +3264,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3998,7 +3271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4006,7 +3278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4014,47 +3285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/PollingStationParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmiterAlertTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/UserSettingActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="23" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Answer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4062,7 +3292,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4070,14 +3299,264 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5050" column="0" selection-start-line="5050" selection-start-column="0" selection-end-line="5050" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/app/Instrumentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1104" column="0" selection-start-line="1104" selection-start-column="0" selection-end-line="1104" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-17/android/app/ActivityThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2175" column="0" selection-start-line="2175" selection-start-column="0" selection-end-line="2175" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/WebServiceClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6626214">
-          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.46138996">
+          <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/UserSettingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5405405">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmiterAlertTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13127413">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/PollingStationParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22972973">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/AddNewDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9189189">
+          <caret line="43" column="68" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/CustomOnClickListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16504854">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.123786405">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/FinishedListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.66019416">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#817#818#0" expanded="false" />
+            <element signature="e#1752#1753#0" expanded="false" />
+            <element signature="e#1772#1773#0" expanded="false" />
+            <element signature="e#1813#1814#0" expanded="false" />
+            <element signature="e#1843#1844#0" expanded="false" />
+            <element signature="e#1897#1898#0" expanded="false" />
+            <element signature="e#1934#1935#0" expanded="false" />
+            <element signature="e#1988#1989#0" expanded="false" />
+            <element signature="e#2028#2029#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4538835">
+          <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MapActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.123786405">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MarkerDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20631067">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3398058">
+          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/PhotoIntentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.6723301">
+          <caret line="100" column="45" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="144" column="66" selection-start-line="144" selection-start-column="66" selection-end-line="144" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.1553398">
+          <caret line="62" column="86" selection-start-line="62" selection-start-column="86" selection-end-line="62" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/content/SharedPreferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33252427">
+          <caret line="332" column="12" selection-start-line="332" selection-start-column="12" selection-end-line="332" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/preference/PreferenceManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33252427">
+          <caret line="368" column="36" selection-start-line="368" selection-start-column="36" selection-end-line="368" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/app/FragmentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="874" column="0" selection-start-line="874" selection-start-column="0" selection-end-line="874" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="305" column="54" selection-start-line="305" selection-start-column="54" selection-end-line="305" selection-end-column="54" />
+          <folding>
+            <element signature="e#10822#10852#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/PendingListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="136" column="22" selection-start-line="136" selection-start-column="15" selection-end-line="136" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveysMapFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3181818">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1340783">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/AnswerArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6494845">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/ServiceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2371134">
+          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7628866">
+          <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.17525773">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
           <folding />
         </state>
       </provider>

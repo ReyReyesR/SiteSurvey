@@ -18,9 +18,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-/**
- * Activity which displays a login screen to the user, offering registration as
- * well.
+/** <p>
+ * 		Ths activity displays the login screen and authenticates the user, this is a dummy service
+ * 		since it only checks 3 pairs of user/password combination: "admin:admin, test:1234,
+ * 		prueba:prueba". Once the user is authenticated, the main activity is invoked.
+ * </p>
  */
 public class LoginActivity extends Activity {
 	/**
@@ -32,14 +34,12 @@ public class LoginActivity extends Activity {
 
 	public static String login;
 
-	/**
-	 * The default email to populate the email field with.
-	 */
+	//The default email to populate the email field with.
+
 	public static final String EXTRA_EMAIL = "com.example.android.authenticatordemo.extra.EMAIL";
 
-	/**
-	 * Keep track of the login task to ensure we can cancel it if requested.
-	 */
+	//Keep track of the login task to ensure we can cancel it if requested.
+
 	private UserLoginTask mAuthTask = null;
 
 	// Values for email and password at the time of the login attempt.
@@ -108,9 +108,9 @@ public class LoginActivity extends Activity {
 	}
 
 	/**
-	 * Attempts to sign in or register the account specified by the login form.
-	 * If there are form errors (invalid email, missing fields, etc.), the
-	 * errors are presented and no actual login attempt is made.
+	 * Attempts to sign in or register the account specified by the login form. If there are form
+	 * errors (invalid email, missing fields, etc.), the errors are presented and no actual
+	 * login attempt is made.
 	 */
 	public void attemptLogin() {
 		if (mAuthTask != null) {
@@ -144,10 +144,6 @@ public class LoginActivity extends Activity {
 			mEmailView.setError(getString(R.string.error_field_required));
 			focusView = mEmailView;
 			cancel = true;
-			//} else if (!mEmail.contains("@")) {
-			//	mEmailView.setError(getString(R.string.error_invalid_email));
-			//	focusView = mEmailView;
-			//	cancel = true;
 		}
 
 		if (cancel) {
@@ -155,8 +151,7 @@ public class LoginActivity extends Activity {
 			// form field with an error.
 			focusView.requestFocus();
 		} else {
-			// Show a progress spinner, and kick off a background task to
-			// perform the user login attempt.
+			// Shows a progress spinner, and invokes a background task to perform the login attempt.
 			mLoginStatusMessageView.setText(R.string.login_progress_signing_in);
 			mAuthTask = new UserLoginTask();
 			if (Build.VERSION.SDK_INT>=Build.VERSION_CODES.HONEYCOMB)
@@ -166,15 +161,10 @@ public class LoginActivity extends Activity {
 
 		}
 	}
-
-	/**
-	 * Shows the progress UI and hides the login form.
-	 */
+	//Shows the progress UI and hides the login form.
 	@TargetApi(Build.VERSION_CODES.HONEYCOMB_MR2)
 	private void showProgress(final boolean show) {
-		// On Honeycomb MR2 we have the ViewPropertyAnimator APIs, which allow
-		// for very easy animations. If available, use these APIs to fade-in
-		// the progress spinner.
+
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR2) {
 			int shortAnimTime = getResources().getInteger(
 					android.R.integer.config_shortAnimTime);
@@ -201,17 +191,14 @@ public class LoginActivity extends Activity {
 						}
 					});
 		} else {
-			// The ViewPropertyAnimator APIs are not available, so simply show
-			// and hide the relevant UI components.
+			// The ViewPropertyAnimator APIs are not available, so simply show and hide the relevant
+			// UI components.
 			mLoginStatusView.setVisibility(show ? View.VISIBLE : View.GONE);
 			mLoginFormView.setVisibility(show ? View.GONE : View.VISIBLE);
 		}
 	}
 
-	/**
-	 * Represents an asynchronous login/registration task used to authenticate
-	 * the user.
-	 */
+	//Represents an asynchronous login/registration task used to authenticate the user.
 	private class UserLoginTask extends AsyncTask<Void, Void, Boolean> {
 		@Override
 		protected void onPreExecute(){
@@ -245,7 +232,6 @@ public class LoginActivity extends Activity {
 			// TODO: register the new account here.
 			return false;
 		}
-
 		@Override
 		protected void onPostExecute(final Boolean success) {
 			mAuthTask = null;
@@ -254,15 +240,12 @@ public class LoginActivity extends Activity {
 			if (success && mAuthTask==null) {
 				Intent intent = new Intent(LoginActivity.this, MainActivity.class);
 				startActivity(intent);
-
-				//finish();
 			} else {
 				mPasswordView
 						.setError(getString(R.string.error_incorrect_password));
 				mPasswordView.requestFocus();
 			}
 		}
-
 		@Override
 		protected void onCancelled() {
 			mAuthTask = null;

@@ -60,7 +60,7 @@ public class SurveyAdapter extends FragmentPagerAdapter {
 											context.mViewPager.setCurrentItem(question.page);
 										}
 										
-										ArrayList<Question> questions = new ArrayList<Question>();
+										ArrayList<Question> questions = new ArrayList<>();
 										
 										for(int i=0; i< repeat ; i++){
 											questions.add(new RepeatQuestion(""+i,context.getText(R.string.classroom) +" "+ (i+1), "14", "", i, question.dependency));

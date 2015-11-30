@@ -11,11 +11,6 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
 
-/**
- * Created by Reynaldo on 09/11/2015.
- */
-
-
 public class MapActivity extends Activity implements
     GoogleApiClient.ConnectionCallbacks,
     GoogleApiClient.OnConnectionFailedListener{
@@ -42,16 +37,6 @@ public class MapActivity extends Activity implements
                 .addOnConnectionFailedListener(this)
                 .addApi(LocationServices.API)
                 .build();
-    }
-
-
-    public double getLatitude(){
-        return location.getLatitude();
-    }
-
-    public double getLongitude(){
-
-        return location.getLongitude();
     }
 
     @Override

@@ -32,19 +32,14 @@ import android.widget.Toast;
 public class PendingListFragment extends ListFragment{
 	
 	private static PSAdapter psAdapter = null;
-	private static Boolean manualLocation = false; // debe ser el check de preferences.xml
 	private static double lon = 10.488558; // latitud de archivo de config
 	private static double lat = -66.93399; // longiud de archivo de config
 	private static 	SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.US);
-
 	public static String startDate;
 
-	// Colombia lat = 4.647758; lon = -74.101735;
-	// Venezuela lat = 10.488558, lon = -66.933990
 	
-	public static ArrayList<PollingStation> psArray = new ArrayList<PollingStation>();
+	public static ArrayList<PollingStation> psArray = new ArrayList<>();
 
-	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -117,7 +112,7 @@ public class PendingListFragment extends ListFragment{
 		public View getView(int position, View convertView, ViewGroup parent) {
 			// TODO Auto-generated method stub}
 			
-			View view = null;
+			View view;
 			if(convertView == null){
 				//Make a new view
 				LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -194,7 +189,7 @@ public class PendingListFragment extends ListFragment{
         			Location placeLocation = new Location("");
         			placeLocation.setLatitude(psArray.get(position).lat);
         			placeLocation.setLongitude(psArray.get(position).lon);
-        			float distance = 0;
+        			float distance;
         			// Si fue modificada variables lat y lon omitir
         			if ((PreferenceManager.getDefaultSharedPreferences(context).getBoolean("manualLocation_preference", false))){
 
@@ -265,7 +260,7 @@ public class PendingListFragment extends ListFragment{
 	                Intent unrestrictedIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
 	                context.startActivity(unrestrictedIntent);
 	            }
-	            catch(ActivityNotFoundException innerEx)
+	            catch(ActivityNotFoundException ignored)
 	            {
 	            }
 	        }

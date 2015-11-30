@@ -59,8 +59,8 @@ public class AnswerArray {
      * processed JSON Objects.
      * @author Reynaldo
      */
-    public JSONObject getAnswerObject () throws JSONException {
-        obj.put("Data",array);
-        return obj;
+    public JSONArray getAnswerObject () throws JSONException {
+        //obj.put("Data",array);
+        return array;
     }
 }

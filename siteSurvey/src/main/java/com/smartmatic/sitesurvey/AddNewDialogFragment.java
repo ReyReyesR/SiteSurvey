@@ -42,7 +42,6 @@ public class AddNewDialogFragment extends DialogFragment {
         Typeface tf = Typeface.createFromAsset(getActivity().getAssets(), "fonts/OpenSans-Regular.ttf");
         ((EditText)view.findViewById(R.id.title)).setTypeface(tf);
         ((EditText)view.findViewById(R.id.address)).setTypeface(tf);
-        //((EditText)view.findViewById(R.id.lon)).setTypeface(tf);
         
         builder.setPositiveButton(getText(R.string.add), new DialogInterface.OnClickListener() {
                    public void onClick(DialogInterface dialog, int id) {

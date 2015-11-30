@@ -14,18 +14,18 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
 import java.net.URL;
 import java.net.URLConnection;
 
 /**
  * <p>
  *     This class creates a URL connection to a host, and GETs or POSTs a JSON object containing
- *     survey's information.
+ *     survey information.
  * </p>
  * @author Reynaldo
  */
 
+@SuppressWarnings("ALL")
 public class ServiceHandler {
 
     static String response;
@@ -40,8 +40,7 @@ public class ServiceHandler {
      * </p>
      * @param url url to establish a connection.
      * @return a String response containing the JSON Object.
-     * @throws UnsupportedEncodingException if bad encoding
-     * @throws IOException  if the InputStream is null.
+     * @throws IOException if the InputStream is null.
      * @author Reynaldo
      */
     public String getServiceCall(String url) throws IOException {
@@ -57,8 +56,6 @@ public class ServiceHandler {
                 response += data;
             }
 
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -68,7 +65,7 @@ public class ServiceHandler {
                 "    \"ContentType\": null,\n" +
                 "    \"Data\": [\n" +
                 "       {\n" +
-                "     \"PkForm\": 1089,\n" +
+                "     \"PkForm\": 1088,\n" +
                 "     \"Name\": \"Pruebas\",\n" +
                 "     \"DateCreation\": \"2015-11-04T00:00:00\",\n" +
                 "     \"DateEnd\": \"2015-11-04T00:00:00\",\n" +
@@ -78,7 +75,7 @@ public class ServiceHandler {
                 "     \"Sections\": [\n" +
                 "       {\n" +
                 "         \"PkSection\": 1133,\n" +
-                "         \"FkForm\": 1089,\n" +
+                "         \"FkForm\": 1088,\n" +
                 "         \"Name\": \"Seccion1\",\n" +
                 "         \"Questions\": [\n" +
                 "           {\n" +
@@ -120,20 +117,19 @@ public class ServiceHandler {
      *     through the url and sends the JSON Object.
      * </p>
      * @param url url to establish a connection.
-     * @return a String response containing the JSON Object.
-     * @throws UnsupportedEncodingException if bad encoding
+     * @return a boolean in case of successful POST.
      * @throws IOException  if the InputStream is null.
      * @author Reynaldo
      */
 
-    public boolean postServiceCall(String url, JSONObject jsonObject) throws IOException {
-        InputStream inputStream = null;
+    public boolean postServiceCall(String url, JSONArray jsonArray) throws IOException {
+        InputStream inputStream;
         response="";
         try {
             HttpClient httpclient = new DefaultHttpClient();
             HttpPost httpPost = new HttpPost(url);
 
-            String json = jsonObject.toString();
+            String json = jsonArray.toString();
             StringEntity se = new StringEntity(json);
             httpPost.setEntity(se);
             httpPost.setHeader("Accept", "application/json");
@@ -141,8 +137,7 @@ public class ServiceHandler {
             HttpResponse httpResponse = httpclient.execute(httpPost);
             inputStream = httpResponse.getEntity().getContent();
             response = convertInputStreamToString(inputStream);
-            if (response.equals("200")) return true;
-            else return false;
+            return response.equals("200");
 
         } catch (Exception e) {
             Log.d("InputStream", e.getLocalizedMessage());

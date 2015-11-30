@@ -79,10 +79,10 @@ public class Answer {
     public void putValue (String Value){
         this.Value=Value;
     }
-    public void putCoordinatesX (int CoordinatesX){
+    public void putCoordinatesX (double CoordinatesX){
         this.CoordinatesX=CoordinatesX;
     }
-    public void putCoordinatesY (int CoordinatesY){
+    public void putCoordinatesY (double CoordinatesY){
         this.CoordinatesY=CoordinatesY;
     }
 }

@@ -39,22 +39,26 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 /**<p>
- * The Main Activity of siteSurvey has four primary objectives
- * First it obtains a JSON object with survey information that is used to create surveys
- * Second initializes and sets the new surveys
- * Third initializes the polling station locations where surveys are done
- * Fourth it creates a Fragment view of the map, new and complete surveys
+ *      The Main Activity of siteSurvey has four primary objectives.
+ *      - Obtain a JSON object with survey information that is used to create surveys.
+ *      - Initialize and set the new surveys.
+ *      - Initialize the polling station locations.
+ *      - Create a Fragment view of the map, new surveys and complete surveys.
+ *</p>
  *
  * @author Reynaldo
- * </p>
  */
 
+@SuppressWarnings("ALL")
 public class MainActivity extends Activity implements ActionBar.TabListener {
 
     private ProgressDialog pDialog;
     SectionsPagerAdapter mSectionsPagerAdapter;
     ViewPager mViewPager;
+    getJSON JSONFile;
+    TransmitterTask transmitterTask;
     String JSONString;
+    String TAG;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,6 +67,7 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
 
         // Set up the action bar.
         final ActionBar actionBar = getActionBar();
+        assert actionBar != null;
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
         // Create the adapter that will return a fragment for each of the three
@@ -83,6 +88,7 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
             }
         });
 
+
         // For each of the sections in the app, add a tab to the action bar.
         for (int i = 0; i < mSectionsPagerAdapter.getCount(); i++) {
             /*Create a tab with text corresponding to the page title defined by the adapter. Also
@@ -93,9 +99,12 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
                     .setTabListener(this));
         }
 
-        new TransmitterTask().execute(getApplicationContext());
+
+
+        transmitterTask = new TransmitterTask();
+        transmitterTask.execute(getApplicationContext());
         //Object of function that gets JSON Objects
-        getJSON JSONFile = new getJSON();
+        JSONFile = new getJSON();
         //Checks for Build Version for Async tasks
         if (Build.VERSION.SDK_INT>= Build.VERSION_CODES.HONEYCOMB)
             JSONFile.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
@@ -103,11 +112,13 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
             JSONFile.execute();
     }
 
+
     /**<p>
-     * This function is an AsyncTask that does 3 processes, first blocks the UI thread and creates a
-     * worker thread. second the worker thread calls a function that establishes a connection with a
-     * host and obtains a JSON object and last the worer thread ends and the function that
-     * initializes Survey is called.
+     * This function is an AsyncTask that does three functions.
+     * - Block the UI thread and creates a worker thread.
+     * - Call a function from within the worker thread that establishes a connection with a host and
+     * obtains a JSON object.
+     * - Kill the worker thread and invoke the function that initializes Surveys.
      * </p>
      *
      * @author Reynaldo
@@ -130,16 +141,14 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
             } catch (InterruptedException e) {
                 return null;
             }
-            // Getting JSON string from URL
+            // Class object that handles all service calls to external urls.
             ServiceHandler sh = new ServiceHandler();
-            // Making a request to url and getting a JSON in response
+            // Function call that returns the JSON string containing Survey information.
             try {
                 JSONString = sh.getServiceCall(FileReader.getUrl(getApplicationContext(),1));
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            Log.d("Response: ", "> " + JSONString);
-
             return null;
         }
 
@@ -149,7 +158,7 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
             // Dismiss the progress dialog
             if (pDialog.isShowing())
                 pDialog.dismiss();
-            //Creation of a Survey with the JSON Object
+            //Creation,Parsing and Building of a Survey with the JSON Object received.
             ArrayList<Question> question = SurveyParser.getQuestionary(JSONString);
             Survey survey = new Survey(question, SurveyParser.dependencies, SurveyParser.fullSize, SurveyParser.withKeyboardSize);
             SurveyAdapterBuilder.setSurvey(survey);
@@ -211,8 +220,8 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
                     PollingStation ps = new PollingStation();
                     ps.title = title;
                     ps.description = address;
-                    ps.lat =mSectionsPagerAdapter.mapFragment.getLatitude(); //10.5080572
-                    ps.lon =mSectionsPagerAdapter.mapFragment.getLongitude(); //-66.9102813
+                    ps.lat =mSectionsPagerAdapter.mapFragment.getLatitude();
+                    ps.lon =mSectionsPagerAdapter.mapFragment.getLongitude();
 
                     if(!PendingListFragment.contains(ps)){
                         PendingListFragment.addNew(ps);
@@ -264,7 +273,6 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
         SurveysMapFragment mapFragment;
         PendingListFragment pendingListFragment;
         FinishedListFragment finishedListFragment;
-        //FinishedListFragment jsonListFragment;
         @Override
         public Fragment getItem(int position) {
             // getItem is called to instantiate the fragment for the given page.
@@ -310,26 +318,20 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
         }
     }
 
-    /**
-     * A placeholder fragment containing a simple view.
-     */
+    // A placeholder fragment containing a simple view.
     public static class PlaceholderFragment extends Fragment {
-        /**
-         * The fragment argument representing the section number for this
-         * fragment.
-         */
+
+        // The fragment argument representing the section number for this fragment.
         private static final String ARG_SECTION_NUMBER = "section_number";
 
         /**
-         * Returns a new instance of this fragment for the given section number.
-         */
-        public static PlaceholderFragment newInstance(int sectionNumber) {
+         public static PlaceholderFragment newInstance(int sectionNumber) {
             PlaceholderFragment fragment = new PlaceholderFragment();
             Bundle args = new Bundle();
             args.putInt(ARG_SECTION_NUMBER, sectionNumber);
             fragment.setArguments(args);
             return fragment;
-        }
+        }*/
 
         public PlaceholderFragment() {
         }

@@ -9,7 +9,6 @@ import android.app.ListFragment;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,7 +20,7 @@ import android.widget.TextView;
 public class FinishedListFragment extends ListFragment{
 	
 	private static PSAdapter psAdapter = null;	
-	public static ArrayList<PollingStation> psArray = new ArrayList<PollingStation>();
+	public static ArrayList<PollingStation> psArray = new ArrayList<>();
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -48,10 +47,10 @@ public class FinishedListFragment extends ListFragment{
 		
 		if(psAdapter!=null)  psAdapter.notifyDataSetChanged();
 	}
-	public static void Remove(PollingStation ps){
+	/*public static void Remove(PollingStation ps){
 		psArray.remove(ps);
 		if(psAdapter!=null)  psAdapter.notifyDataSetChanged();
-	}
+	}*/
 	
 	public static void SetAsTransmitted(PollingStation ps){
 		ps.transmitted = true;
@@ -85,7 +84,7 @@ public class FinishedListFragment extends ListFragment{
 		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
 			
-			View view = null;
+			View view;
 			if(convertView == null){
 				//Make a new view
 				LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -117,7 +116,7 @@ public class FinishedListFragment extends ListFragment{
 			return view;
 		}
 
-		public View jsonView(int position, View convertView, ViewGroup parent){
+		/*public View jsonView(int position, View convertView, ViewGroup parent){
 			View view = null;
 			if(convertView == null){
 				//Make a new view
@@ -131,7 +130,7 @@ public class FinishedListFragment extends ListFragment{
 			}
 
 
-		return view;}
+		return view;}*/
 	
 	}
 	
