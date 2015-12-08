@@ -8,34 +8,44 @@ import com.smartmatic.sitesurvey.data.Survey;
 
 import android.app.FragmentManager;
 import android.content.Context;
-import android.content.res.Resources;
+
+/**
+ * <p>
+ *     This function associates a survey with a specific polling station.
+ * </p>
+ *
+ */
+
 
 public class SurveyAdapterBuilder {
 
 	private static Survey baseSurvey;
 	public static Hashtable<Integer,Survey> surveys = new  Hashtable<Integer,Survey>();
-	private static 	SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.US);
-	//SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS", Locale.US);
+	private static 	SimpleDateFormat format = new SimpleDateFormat
+			("yyyy-MM-dd'T'HH:mm:ss", Locale.US);
+
 	
 	public static void setSurvey(Survey _survey){
 		baseSurvey = _survey;
 	}
 		
-	public static SurveyAdapter BuildAdapter(Context context, int psId, FragmentManager fragmentManager){
-		//TODO:
-		// INCLIR INFORMACION RELACIONADA AL SITIO 
-		// RECUERDA QUE AQUI LO LLAMASTE PLACE PERO EN OTRO LADO LO LLAMASTE PS (POLLING STATION) -- REVISAR
-		
+	public static SurveyAdapter BuildAdapter
+			(Context context, int psId, FragmentManager fragmentManager){
+
 		if(surveys.get(psId) == null){
-			surveys.put(psId, new Survey(psId, baseSurvey.pages,baseSurvey.base_dependentSurveys, format.format(new Date())));
+			surveys.put(psId, new Survey(psId, baseSurvey.pages,baseSurvey.base_dependentSurveys,
+					format.format(new Date())));
 		}
 		return new SurveyAdapter(context, fragmentManager,surveys.get(psId));
 	}
 
-	public static SurveyAdapter getDependentAdapter(Context context, int psId, int depId, String dependencyName, FragmentManager fragmentManager) {
+	public static SurveyAdapter getDependentAdapter
+			(Context context, int psId, int depId, String dependencyName,
+			 FragmentManager fragmentManager) {
 		
 		if(surveys.get(psId) != null){
-			return new SurveyAdapter(context, fragmentManager, surveys.get(psId).getDependentSurvey(depId, dependencyName));
+			return new SurveyAdapter(context, fragmentManager, surveys.get(psId).
+					getDependentSurvey(depId, dependencyName));
 		}
 
 		return null;

@@ -21,7 +21,8 @@ public class TransmiterAlertTask extends AsyncTask<Object, Void, Void> {
     }
 	
     protected Void doInBackground(Object... args) {
-    	WebServiceClient.SendAlert((Context)args[0], new DataAlert(dateFormat.format(new Date()), "Border", LoginActivity.login,(String)args[1]));
+    	WebServiceClient.SendAlert((Context)args[0], new DataAlert(dateFormat.format(new Date()),
+				"Border", LoginActivity.login,(String)args[1]));
 
     	return null;
     }

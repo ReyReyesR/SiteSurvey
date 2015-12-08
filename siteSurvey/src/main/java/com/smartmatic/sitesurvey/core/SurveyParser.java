@@ -11,8 +11,8 @@ import com.smartmatic.sitesurvey.data.*;
 
 /**<p>
  *      This class parses a JSON Object which is received from the Main Activity.
- *      The methods in this class are private except for GetQuestionary(), which is the main call for
- *      this class to parse, fill the questions objects and return an Arraylist consisting of several
+ *      The methods in this class are private except for GetQuestionary(),which is the main call for
+ *      this class to parse,fill the questions objects and return an ArrayList consisting of several
  *      question objects that later are used to construct the survey.
  * </p>
  * @author Reynaldo
@@ -93,16 +93,17 @@ public class SurveyParser {
     }
 
     /** <p>
-     *      This function parses all the question elements inside the JSON object, once a question is
-     *      found the JSON array containing the questions is passed to readQuestion so each individual
-     *      question gets created.
+     *      This function parses all the question elements inside the JSON object, once a question
+     *      is found the JSON array containing the questions is passed to readQuestion so each
+     *      individual question gets created.
      * </p>
     *@param json receives a JSON Object.
-    *@return an Arraylist of question objects.
+    *@return an ArrayList of question objects.
     *@throws JSONException if JSON object is empty or null.
     */
 
-    private static ArrayList<Question> readQuestions(JSONObject json, String idSection, String idForm) throws JSONException {
+    private static ArrayList<Question>
+    readQuestions(JSONObject json, String idSection, String idForm) throws JSONException {
         ArrayList<Question> questions = new ArrayList<>();
 
         JSONArray quest = json.getJSONArray(TAG_QUESTION);
@@ -117,22 +118,27 @@ public class SurveyParser {
 
     /** <p>
      *      This function parses the contents of a question tag. In here the type of question is
-     *      discerned through the QUESTION_TYPE tag, this tag determines which question class is invoked,
-     *      there are three possible types: Simple Selection, Multiple Selection and Open Question.
+     *      discerned through the QUESTION_TYPE tag, this tag determines which question class is
+     *      invoked, there are three possible types: Simple Selection, Multiple Selection and
+     *      Open Question.
      * </p>
     *@param json receives a JSON Object
     *@return a question object.
     *@throws JSONException if JSON object is empty or null.
     */
-    private static Question readQuestion(JSONObject json, String idSection,String idForm) throws JSONException {
+    private static Question readQuestion(JSONObject json, String idSection,String idForm)
+            throws JSONException {
         String idQuestion;
         Question question = null;
 
         String tag = json.getString (QUESTION_TYPE);
         idQuestion = json.getString (QUESTION_ID);
-        if(tag.equals("Simple"))    question = SingleOptionQuestion.createFromJSON  (json,idForm,idSection,idQuestion);
-        if(tag.equals("Multiple"))  question = MultiOptionQuestion.createFromJSON   (json,idForm,idSection,idQuestion);
-        if(tag.equals("Abierta"))   question = TextQuestion.createFromJSON          (json,idForm,idSection,idQuestion);
+        if(tag.equals("Simple"))    question = SingleOptionQuestion.createFromJSON
+                (json,idForm,idSection,idQuestion);
+        if(tag.equals("Multiple"))  question = MultiOptionQuestion.createFromJSON
+                (json,idForm,idSection,idQuestion);
+        if(tag.equals("Abierta"))   question = TextQuestion.createFromJSON
+                (json,idForm,idSection,idQuestion);
 
         return question;
     }

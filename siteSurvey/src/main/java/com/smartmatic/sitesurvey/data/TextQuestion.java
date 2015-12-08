@@ -1,10 +1,4 @@
 package com.smartmatic.sitesurvey.data;
-/*
-*Text question object, is a particular case of Question object
-* it is used when the type of answer is anopen type.
-*@param receives JSON Object.
-*@return Text Question Question object.
-*/
 
 import java.util.ArrayList;
 
@@ -27,6 +21,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
+
+/**
+ * <p>
+ *     Text question object, is a particular case of Question object
+ *     it is used when the type of answer is an open one.
+ * </p>
+ *
+ */
 
 public class TextQuestion extends Question implements Cloneable {
 
@@ -160,11 +162,18 @@ public class TextQuestion extends Question implements Cloneable {
 		alert.show();
 
 	}
-	/* Creation of Text Question object from a JSON Object
-	* @param receives JSON Object.
-	* @return Text Question Question object.
-	* @throws JSONException if JSON object is null or empty.
-	*/
+
+	/**
+	 * <p>
+	 *     Creation of Text Question object from a JSON Object
+	 * </p>
+	 * @param json a JSONObject containing all the answers associated to a question.
+	 * @param idForm an int containing the id of form.
+	 * @param idSection an int containing the id of the section.
+	 * @param idQuestion an int containing the id of the question.
+	 * @return an object of the TextQuestion class.
+	 * @throws JSONException if JSON object is null or empty.
+	 */
 
 	public static Question createFromJSON(JSONObject json, String idSection,
 										  String idQuestion,String idForm) throws JSONException {

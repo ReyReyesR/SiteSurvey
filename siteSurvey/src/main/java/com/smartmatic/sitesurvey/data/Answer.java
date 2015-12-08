@@ -52,8 +52,7 @@ public class Answer {
      *     instantiated when the object is filled, the mere existence of the object secures it has
      *     valid data in it.
      * </p>
-     * @returns ProcessedAnswers The JSON Object containing the survey answers.
-     * @returns null if the JSON Object is not instantiated
+     * @return ProcessedAnswers The JSON Object containing the survey answers.
      * @throws JSONException if the JSON object is null, hence returning null.
      * @author Reynaldo
      */

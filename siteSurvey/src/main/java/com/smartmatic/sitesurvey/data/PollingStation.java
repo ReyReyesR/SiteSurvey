@@ -1,9 +1,12 @@
 package com.smartmatic.sitesurvey.data;
 
-//import com.google.android.gms.internal.l.a;
-
 import android.graphics.Bitmap;
 
+/**
+ * <p>
+ *     This class represents a Polling station.
+ * </p>
+ */
 	public class PollingStation {
 	
 		public String title;
@@ -22,9 +25,7 @@ import android.graphics.Bitmap;
 		@Override
 		public boolean equals(Object o) {
 			// TODO Auto-generated method stub
-			PollingStation ps = (PollingStation)o;
-			if(ps!=null)
-				return lat == ps.lat && lon == ps.lon;
-			return false;
+			PollingStation ps = (PollingStation) o;
+			return ps != null && lat == ps.lat && lon == ps.lon;
 		}
 }

@@ -6,19 +6,54 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="E/" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89a656de-1719-4995-868e-1d3b5972d9ef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/FinishedListFragment$PSAdapter.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/FinishedListFragment$PSAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/FinishedListFragment.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/FinishedListFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment$PSAdapter$1.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment$PSAdapter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment$PSAdapter$2.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment$PSAdapter$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment$PSAdapter$3.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment$PSAdapter$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment$PSAdapter.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment$PSAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/PendingListFragment.class" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\appcompat_v7_22_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\ksoap2_android_assembly_2_5_8_jar_with_dependencies.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\mediarouter_v7_22_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\org_apache_http_legacy_android_23.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_ads_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_analytics_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_appindexing_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_appinvite_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_appstate_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_base_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_basement_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_cast_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_drive_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_fitness_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_games_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_gcm_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_identity_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_location_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_maps_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_measurement_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_nearby_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_panorama_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_plus_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_safetynet_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_vision_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_wallet_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\play_services_wearable_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\support_annotations_23_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\support_v13_23_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Reynaldo\StudioProjects\SiteSurvey\.idea\libraries\support_v4_23_1_0.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/Answer.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/Answer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/AnswerArray.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/AnswerArray.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/FinishQuestion$1.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/FinishQuestion$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/FinishQuestion.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/FinishQuestion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/PollingStationParser.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/PollingStationParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/SingleOptionQuestion$1.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/SingleOptionQuestion$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/SingleOptionQuestion.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/data/SingleOptionQuestion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/SurveyAdapterBuilder.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/SurveyAdapterBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/SurveyParser.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/SurveyParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/TransmiterAlertTask.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/TransmiterAlertTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/TransmitterTask$1.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/TransmitterTask$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/TransmitterTask.class" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/classes/debug/com/smartmatic/sitesurvey/core/TransmitterTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/siteSurvey/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
@@ -26,9 +61,21 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/outputs/apk/siteSurvey-debug-unaligned.apk" afterPath="$PROJECT_DIR$/siteSurvey/build/outputs/apk/siteSurvey-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/build/outputs/apk/siteSurvey-debug.apk" afterPath="$PROJECT_DIR$/siteSurvey/build/outputs/apk/siteSurvey-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/FinishedListFragment.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/FinishedListFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/PendingListFragment.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/PendingListFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveysMapFragment.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveysMapFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Answer.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Answer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/AnswerArray.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/AnswerArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/FinishQuestion.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/FinishQuestion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/MultiOptionQuestion.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/MultiOptionQuestion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Option.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Option.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/PollingStation.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/PollingStation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/PollingStationParser.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/PollingStationParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Question.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Question.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/SingleOptionQuestion.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/SingleOptionQuestion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyAdapterBuilder.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyAdapterBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyParser.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/TextQuestion.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/TextQuestion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmiterAlertTask.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmiterAlertTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java" afterPath="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SiteSurvey.iws" />
@@ -122,63 +169,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MainActivity.java">
+      <file leaf-file-name="RepeatQuestion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/RepeatQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.20432693">
               <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/ServiceHandler.java">
+      <file leaf-file-name="MapActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MapActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SurveyActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="144" column="66" selection-start-line="144" selection-start-column="66" selection-end-line="144" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SurveyFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SurveysMapFragment.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveysMapFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73846155">
-              <caret line="131" column="13" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SurveyAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="86" selection-start-line="62" selection-start-column="86" selection-end-line="62" selection-end-column="86" />
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -2653,7 +2678,6 @@
         <option value="$PROJECT_DIR$/siteSurvey/src/main/res/layout/dialog_newps.xml" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Form.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/LabelForm.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyAdapterBuilder.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/AuthorQuestion.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/DateQuestion.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/StartDateQuestion.java" />
@@ -2663,17 +2687,9 @@
         <option value="$PROJECT_DIR$/siteSurvey/src/main/assets/PollingStations.txt" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MarkerDialogFragment.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/getJSON.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/TextQuestion.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/PollingStationParser.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Survey.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/JSONHandler.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmiterTask.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/FinishQuestion.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyParser.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Question.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/MultiOptionQuestion.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Option.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/SingleOptionQuestion.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/DataSurvey.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/WebServiceClient.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/UserSettingActivity.java" />
@@ -2686,13 +2702,25 @@
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyAdapter.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyFragment.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MainActivity.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Answer.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/ServiceHandler.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/AnswerArray.java" />
-        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/PendingListFragment.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/FinishedListFragment.java" />
         <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveysMapFragment.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/PollingStationParser.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/LocationUtil.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyAdapterBuilder.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyParser.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmiterAlertTask.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Answer.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/AnswerArray.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/FinishQuestion.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/SingleOptionQuestion.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/MultiOptionQuestion.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Option.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/PollingStation.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Question.java" />
+        <option value="$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/TextQuestion.java" />
       </list>
     </option>
   </component>
@@ -2735,8 +2763,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2773,9 +2801,53 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteSurvey" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="siteSurvey" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitesurvey" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteSurvey" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="siteSurvey" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitesurvey" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane" />
     </panes>
   </component>
@@ -2998,19 +3070,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5816327" sideWeight="0.85779124" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5102041" sideWeight="0.8479576" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24489796" sideWeight="0.82980335" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.457483" sideWeight="0.74583966" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24489796" sideWeight="0.17019667" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5102041" sideWeight="0.15204236" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -3027,6 +3098,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5816327" sideWeight="0.85779124" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -3083,31 +3155,19 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/SingleOptionQuestion.java</url>
-          <line>170</line>
-          <properties />
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/FinishQuestion.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/SingleOptionQuestion.java</url>
-          <line>68</line>
+          <line>69</line>
           <properties />
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Option.java</url>
-          <line>11</line>
+          <line>18</line>
           <properties />
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/SingleOptionQuestion.java</url>
-          <line>80</line>
+          <line>81</line>
           <properties />
           <option name="timeStamp" value="105" />
         </line-breakpoint>
@@ -3123,6 +3183,16 @@
           <properties />
           <option name="timeStamp" value="124" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/FinishQuestion.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/FinishQuestion.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -3132,184 +3202,15 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="127" />
+      <option name="time" value="132" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/PollingStation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5022727">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/content/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3318182">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Survey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39637306">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="54" />
-          <folding>
-            <element signature="e#265#286#0" expanded="true" />
-            <element signature="e#361#377#0" expanded="true" />
-            <element signature="e#448#465#0" expanded="true" />
-            <element signature="e#2733#2743#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/os/AsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="649" column="0" selection-start-line="649" selection-start-column="0" selection-end-line="649" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/FinishQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="106" column="48" selection-start-line="106" selection-start-column="48" selection-end-line="106" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/MultiOptionQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="117" column="44" selection-start-line="117" selection-start-column="44" selection-end-line="117" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="128" column="33" selection-start-line="128" selection-start-column="33" selection-end-line="128" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Option.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/SingleOptionQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="102" column="41" selection-start-line="102" selection-start-column="41" selection-end-line="102" selection-end-column="41" />
-          <folding>
-            <element signature="e#5710#5718#0" expanded="true" />
-            <element signature="e#5899#5907#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/AlbumStorageDirFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/BaseAlbumDirFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/CODDBAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/CODDBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/DownloadImageTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/FroyoAlbumDirFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/LocationUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/AnswersVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5050" column="0" selection-start-line="5050" selection-start-column="0" selection-end-line="5050" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/app/Instrumentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1104" column="0" selection-start-line="1104" selection-start-column="0" selection-end-line="1104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-17/android/app/ActivityThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2175" column="0" selection-start-line="2175" selection-start-column="0" selection-end-line="2175" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/os/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3320,33 +3221,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/WebServiceClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46138996">
-          <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/UserSettingActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5405405">
           <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmiterAlertTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13127413">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/PollingStationParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22972973">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -3362,15 +3240,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16504854">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.123786405">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3382,18 +3251,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/PhotoIntentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.6723301">
-          <caret line="100" column="45" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/content/SharedPreferences.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33252427">
           <caret line="332" column="12" selection-start-line="332" selection-start-column="12" selection-end-line="332" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3401,7 +3262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33252427">
           <caret line="368" column="36" selection-start-line="368" selection-start-column="36" selection-end-line="368" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3416,25 +3276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="305" column="54" selection-start-line="305" selection-start-column="54" selection-end-line="305" selection-end-column="54" />
-          <folding>
-            <element signature="e#10822#10852#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Answer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1340783">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/AnswerArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6494845">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3442,39 +3283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.3009708">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.907767">
-          <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MapActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16504854">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MarkerDialogFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9393204">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="57" selection-start-line="116" selection-start-column="49" selection-end-line="116" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3482,14 +3290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <element signature="method#onCreate#0;class#PendingListFragment#0" expanded="false" />
-            <element signature="method#onActivityCreated#0;class#PendingListFragment#0" expanded="false" />
-            <element signature="method#setData#0;class#PendingListFragment#0" expanded="false" />
-            <element signature="method#addNew#0;class#PendingListFragment#0" expanded="false" />
-            <element signature="method#remove#0;class#PendingListFragment#0" expanded="false" />
-            <element signature="method#get#0;class#PendingListFragment#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3497,15 +3297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5776699">
           <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3521,15 +3312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="144" column="66" selection-start-line="144" selection-start-column="66" selection-end-line="144" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="86" selection-start-line="62" selection-start-column="86" selection-end-line="62" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3537,17 +3319,292 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveysMapFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73846155">
+        <state vertical-scroll-proportion="0.0">
           <caret line="131" column="13" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/SurveyAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="86" selection-start-line="62" selection-start-column="86" selection-end-line="62" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MarkerDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0372807">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/PhotoIntentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9254386">
+          <caret line="100" column="45" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49514562">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/AlbumStorageDirFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/BaseAlbumDirFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/CODDBAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/CODDBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/DownloadImageTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/FroyoAlbumDirFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/LocationUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.9259257">
+          <caret line="11" column="99" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyAdapterBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#500#516#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/SurveyParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmiterAlertTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.740741">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/TransmitterTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.0">
+          <caret line="124" column="35" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
+          <folding>
+            <element signature="e#3329#3486#0" expanded="false" />
+            <element signature="e#3485#3486#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/SingleOptionQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="e#6561#6569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Option.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.32692307">
+          <caret line="4" column="87" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/FinishQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7572116">
+          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/DataAlert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16346154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/AnswersVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57211536">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/AnswerArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4254807">
+          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <folding>
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.125">
+          <caret line="54" column="78" selection-start-line="54" selection-start-column="78" selection-end-line="54" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/WebServiceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7427886">
+          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/core/PollingStationParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/PollingStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.37037">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="13.962963">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/StringVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/Survey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/MultiOptionQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38701922">
+          <caret line="112" column="66" selection-start-line="109" selection-start-column="7" selection-end-line="112" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/TextQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7980769">
+          <caret line="174" column="34" selection-start-line="174" selection-start-column="34" selection-end-line="174" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/data/RepeatQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MapActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siteSurvey/src/main/java/com/smartmatic/sitesurvey/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.20432693">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

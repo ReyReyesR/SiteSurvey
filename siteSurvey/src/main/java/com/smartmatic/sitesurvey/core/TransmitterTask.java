@@ -52,7 +52,8 @@ public class TransmitterTask extends AsyncTask<Context, Void, Void> {
 					if(survey.pages!=null){
 						for(ArrayList<Question> page: survey.pages){
 							for(Question q: page){
-								if(q.dependency.equals("") && q.answer!=null && !q.answer.equals("")){
+								if(q.dependency.equals("") && q.answer!=null &&
+										!q.answer.equals("")){
 									JSONObject jsonAnswer = new JSONObject();
 									if(q.getClass().toString().contains("MultiOption")){
 										this.idForm=q.idForm;
@@ -105,7 +106,8 @@ public class TransmitterTask extends AsyncTask<Context, Void, Void> {
 					JSONArray answer=answerArray.getAnswerObject();
 					ServiceHandler sh = new ServiceHandler();
 
-					if(sh.postServiceCall((FileReader.getUrl(args[0],2)+idForm),answer)) toDelete.add(ps);
+					if(sh.postServiceCall((FileReader.getUrl(args[0],2)+idForm),answer))
+						toDelete.add(ps);
         		}
 			}
         	if(toDelete.size() > 0){

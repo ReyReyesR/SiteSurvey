@@ -1,32 +1,33 @@
 package com.smartmatic.sitesurvey.data;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
 
 import com.smartmatic.sitesurvey.R;
 import com.smartmatic.sitesurvey.SurveyActivity;
 import com.smartmatic.sitesurvey.SurveyAdapter;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.Typeface;
-import android.util.AttributeSet;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
 import android.widget.RadioGroup.OnCheckedChangeListener;
+
+/**
+ * <p>
+ *     This is the SingleOptionQuestion class is a specific type of extension of the Question class,
+ *     this type of question only allows one and only one answer.
+ * </p>
+ */
 
 public class SingleOptionQuestion extends Question implements Cloneable {
 
@@ -105,13 +106,13 @@ public class SingleOptionQuestion extends Question implements Cloneable {
 
 
 					//LIVE VALIDATIONS
-					String knowsRead = "";
+					/*String knowsRead = "";
 					for (ArrayList<Question> page : surveyAdapter.survey.pages) {
 						for (Question question : page) {
 
 							if(name.equals("C115")){
 								if(question.name.equals("C12")){
-									if(question.answer.equals("c12_1") /*Masculino*/ && !answer.equals("c115_1") /*diferente de ninguno*/ ){
+									if(question.answer.equals("c12_1") *//*Masculino*//* && !answer.equals("c115_1") *//*diferente de ninguno*//* ){
 										ShowAlertDialog(activityRef,
 												activityRef.getText(R.string.Question_incongruence) + " "
 														+ label + " " + activityRef.getText(R.string.And) + " " + question.label);
@@ -124,13 +125,13 @@ public class SingleOptionQuestion extends Question implements Cloneable {
 									knowsRead = question.answer;
 								}else if(question.name.equals("C19")){
 									if(question.answer.equals("true") && knowsRead.equals("true")
-											&& (answer.equals("c110_1") /*Ninguno*/ || answer.equals("c110_2")/*Prescolar*/)) {
+											&& (answer.equals("c110_1") *//*Ninguno*//* || answer.equals("c110_2")*//*Prescolar*//*)) {
 										ShowAlertDialog(activityRef,
 												activityRef.getText(R.string.Question_incongruence) + " "
 														+ label + " " + activityRef.getText(R.string.And) + " " + question.label);
 									}
 									else if((!question.answer.equals("true") || !knowsRead.equals("true"))
-											&& !answer.equals("c110_1") /*Ninguno*/ && !answer.equals("c110_2")/*Prescolar*/) {
+											&& !answer.equals("c110_1") *//*Ninguno*//* && !answer.equals("c110_2")*//*Prescolar*//*) {
 										ShowAlertDialog(activityRef,
 												activityRef.getText(R.string.Question_incongruence) + " "
 														+ label + " " + activityRef.getText(R.string.And) + " " + question.label);
@@ -139,7 +140,7 @@ public class SingleOptionQuestion extends Question implements Cloneable {
 								}
 							}
 						}
-					}
+					}*/
 				}
 
 			}
@@ -165,6 +166,21 @@ public class SingleOptionQuestion extends Question implements Cloneable {
 
 
 	}
+
+	/**
+	 * <p>
+	 *     This function constructs a new SingleOptionQuestion using a JsonObject input.
+	 * </p>
+	 * *
+	 * @param json a JSONObject containing all the answers associated to a question.
+	 * @param idForm an int containing the id of form.
+	 * @param idSection an int containing the id of the section.
+	 * @param idQuestion an int cntaining the id of the question.
+	 * @return SingleOptionQuestion This is  new object of the SingleOptionQuestion which extends
+	 * from the Question class, this object contains the Form,Section,Question and possible Answers
+	 * id, including the value for each answer.
+	 * @throws JSONException
+	 */
 
 	public static Question createFromJSON(JSONObject json, String idForm, String idSection, String idQuestion) throws JSONException {
 

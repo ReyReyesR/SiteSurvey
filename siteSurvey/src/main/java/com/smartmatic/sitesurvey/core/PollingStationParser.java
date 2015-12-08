@@ -18,10 +18,15 @@ import android.os.Environment;
  * <p>
  *     This class parses the file containing all the Polling Stations. The PollingStations.txt file
  *     must be located in \Android\data\com.smartmatic.sitesurvey\files\ for the file to be opened.
- *     Once the file is opened, each line represents a Polling Station, which is then used to create
- *     a New Polling Station.
+ *     Once the file is opened, each line represents a Polling Station, the format is:
+ *     "/tName(String) /t Reference(String) /tLatitude(double) /tLongitude(double)"
+ *     Once these lines are parsed, they are split and assigned to a variable, then they are used to
+ *     create a new Polling Station.
  * </p>
+ *
+ * @author Reynaldo
  */
+
 public class PollingStationParser {
 
 	private static final String configFile = "PollingStations.txt";

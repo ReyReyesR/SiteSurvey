@@ -2,15 +2,19 @@ package com.smartmatic.sitesurvey.data;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.xmlpull.v1.XmlPullParser;
 
 import com.smartmatic.sitesurvey.SurveyActivity;
 import com.smartmatic.sitesurvey.SurveyAdapter;
 
-import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+/**
+ * <p>
+ *     This is the base class for all the different Question classes.
+ * </p>
+ */
 
 public abstract class Question implements Cloneable{
 
